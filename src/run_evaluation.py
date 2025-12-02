@@ -37,6 +37,7 @@ import sys
 sys.path.append(str(Path(__file__).parent))
 
 from models.unet_2d import UNet2D
+from models.attention_unet_2d import AttentionUNet2D
 from utils.dataset import AbdomenCTDataset, get_validation_augmentation
 from metrics import SegmentationMetrics, BatchMetricsCalculator, StatisticalTests, format_metrics_table
 from error_analysis import ErrorAnalyzer
@@ -51,11 +52,11 @@ MODEL_REGISTRY = {
         'name': 'U-Net 2D'
     },
     # Future models can be added here:
-    # 'attention_unet': {
-    #     'class': AttentionUNet2D,
-    #     'config': 'config/attention_unet_config.json',
-    #     'name': 'Attention U-Net'
-    # },
+    'attention_unet': {
+        'class': AttentionUNet2D,
+        'config': 'config/attention_unet_train_config.json',
+        'name': 'Attention U-Net'
+    },
     # 'unet3d': {
     #     'class': UNet3D,
     #     'config': 'config/unet3d_config.json',
