@@ -64,6 +64,5 @@
     "val_dice": 0.9635,
     "test_dice": 0.7498,
     "gap": 0.2137,
-    "note": "Performance drop indicates overfitting as noted by professor"
   }
 }
