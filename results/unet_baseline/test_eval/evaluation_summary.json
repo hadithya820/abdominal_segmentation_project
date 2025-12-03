@@ -1,0 +1,69 @@
+{
+  "model_name": "U-Net 2D",
+  "split": "test",
+  "total_cases": 55,
+  "total_slices": 13187,
+  "batch_results": [
+    {
+      "batch": 1,
+      "cases": "0-10",
+      "n_samples": 2279,
+      "dice": 0.7654,
+      "iou": 0.7451
+    },
+    {
+      "batch": 2,
+      "cases": "10-20",
+      "n_samples": 2553,
+      "dice": 0.7583,
+      "iou": 0.7393
+    },
+    {
+      "batch": 3,
+      "cases": "20-30",
+      "n_samples": 2275,
+      "dice": 0.7544,
+      "iou": 0.7348
+    },
+    {
+      "batch": 4,
+      "cases": "30-40",
+      "n_samples": 2276,
+      "dice": 0.7328,
+      "iou": 0.7081
+    },
+    {
+      "batch": 5,
+      "cases": "40-50",
+      "n_samples": 2592,
+      "dice": 0.7582,
+      "iou": 0.7376
+    },
+    {
+      "batch": 6,
+      "cases": "50-55",
+      "n_samples": 1212,
+      "dice": 0.7298,
+      "iou": 0.7104
+    }
+  ],
+  "overall_metrics": {
+    "dice": {
+      "mean": 0.7498,
+      "per_class": {
+        "Liver": 0.944,
+        "Kidneys": 0.702,
+        "Spleen": 0.603
+      }
+    },
+    "iou": {
+      "mean": 0.7292
+    }
+  },
+  "validation_comparison": {
+    "val_dice": 0.9635,
+    "test_dice": 0.7498,
+    "gap": 0.2137,
+    "note": "Performance drop indicates overfitting as noted by professor"
+  }
+}

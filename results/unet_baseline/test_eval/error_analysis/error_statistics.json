@@ -1,0 +1,121 @@
+{
+  "class_statistics": {
+    "Liver": {
+      "dice": {
+        "mean": 0.9510408486109532,
+        "std": 0.15453759912015555,
+        "median": 0.9834792813934352,
+        "min": 0.0,
+        "max": 1.0,
+        "q25": 0.9716481072458732,
+        "q75": 1.0
+      },
+      "false_positive_rate": {
+        "mean": 0.045283333252903034,
+        "std": 0.13950237828296638
+      },
+      "false_negative_rate": {
+        "mean": 0.0524917584708399,
+        "std": 0.13517214054141993
+      },
+      "n_samples": 2279,
+      "boundary": {
+        "dice_mean": 0.6657308887928531,
+        "dice_std": 0.173411072123648,
+        "fn_rate_mean": 0.2054551076099324,
+        "fn_rate_std": 0.19441320680987015
+      }
+    },
+    "Kidneys": {
+      "dice": {
+        "mean": 0.7160071510422525,
+        "std": 0.3906596833433877,
+        "median": 0.949370709381472,
+        "min": 0.0,
+        "max": 1.0,
+        "q25": 0.49372848915082923,
+        "q75": 1.0
+      },
+      "false_positive_rate": {
+        "mean": 0.4062926140671029,
+        "std": 0.4205585847114644
+      },
+      "false_negative_rate": {
+        "mean": 0.0683432039564844,
+        "std": 0.10489382593994227
+      },
+      "n_samples": 2279,
+      "boundary": {
+        "dice_mean": 0.6135725358884357,
+        "dice_std": 0.16138490016951945,
+        "fn_rate_mean": 0.19994620095057272,
+        "fn_rate_std": 0.1499904331990356
+      }
+    },
+    "Spleen": {
+      "dice": {
+        "mean": 0.629223343571742,
+        "std": 0.48301276119388353,
+        "median": 1.0,
+        "min": 0.0,
+        "max": 1.0,
+        "q25": 0.0,
+        "q75": 1.0
+      },
+      "false_positive_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "false_negative_rate": {
+        "mean": 0.9999999999925394,
+        "std": 2.7230798444914668e-11
+      },
+      "n_samples": 2279,
+      "boundary": {
+        "dice_mean": 0.0,
+        "dice_std": 0.0,
+        "fn_rate_mean": 1.0,
+        "fn_rate_std": 0.0
+      }
+    }
+  },
+  "size_correlation": {
+    "Liver": {
+      "correlation": 0.2949713311305847,
+      "p_value": 4.4543386145374904e-35,
+      "n_samples": 1680
+    },
+    "Kidneys": {
+      "correlation": 0.33320732008794374,
+      "p_value": 2.3556575059311535e-33,
+      "n_samples": 1233
+    },
+    "Spleen": {
+      "correlation": NaN,
+      "p_value": NaN,
+      "n_samples": 845
+    }
+  },
+  "failure_summary": {
+    "n_failures": 859,
+    "failure_rate": 0.37691970162351907,
+    "per_class_failures": {
+      "Liver": {
+        "count": 26,
+        "mean_dice": 0.11241493737128619,
+        "worst_dice": 0.0
+      },
+      "Kidneys": {
+        "count": 131,
+        "mean_dice": 0.30998186830850355,
+        "worst_dice": 0.0
+      },
+      "Spleen": {
+        "count": 833,
+        "mean_dice": 0.0,
+        "worst_dice": 0.0
+      }
+    }
+  },
+  "n_samples": 2279
+}
