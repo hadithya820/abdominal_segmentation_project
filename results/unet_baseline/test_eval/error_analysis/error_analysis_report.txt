@@ -2,54 +2,50 @@
 ERROR ANALYSIS REPORT
 ======================================================================
 
-Total samples analyzed: 2279
+Total samples analyzed: 13187
 
 ----------------------------------------------------------------------
 PER-CLASS STATISTICS
 ----------------------------------------------------------------------
 
 Liver:
-  Dice Score: 0.9510 ± 0.1545
+  Dice Score: 0.9445 ± 0.1657
     Range: [0.0000, 1.0000]
-    Median: 0.9835, IQR: [0.9716, 1.0000]
-  False Positive Rate: 0.0453 ± 0.1395
-  False Negative Rate: 0.0525 ± 0.1352
-  Boundary Dice: 0.6657 ± 0.1734
-  Boundary FN Rate: 0.2055 ± 0.1944
+    Median: 0.9841, IQR: [0.9700, 1.0000]
+  False Positive Rate: 0.0575 ± 0.1552
+  False Negative Rate: 0.0603 ± 0.1531
+  Boundary Dice: 0.6435 ± 0.1686
+  Boundary FN Rate: 0.2057 ± 0.1865
 
 Kidneys:
-  Dice Score: 0.7160 ± 0.3907
+  Dice Score: 0.9331 ± 0.1666
     Range: [0.0000, 1.0000]
-    Median: 0.9494, IQR: [0.4937, 1.0000]
-  False Positive Rate: 0.4063 ± 0.4206
-  False Negative Rate: 0.0683 ± 0.1049
-  Boundary Dice: 0.6136 ± 0.1614
-  Boundary FN Rate: 0.1999 ± 0.1500
+    Median: 0.9720, IQR: [0.9526, 1.0000]
+  False Positive Rate: 0.0663 ± 0.1570
+  False Negative Rate: 0.0819 ± 0.1540
+  Boundary Dice: 0.6675 ± 0.1502
+  Boundary FN Rate: 0.1981 ± 0.1678
 
 Spleen:
-  Dice Score: 0.6292 ± 0.4830
-    Range: [0.0000, 1.0000]
-    Median: 1.0000, IQR: [0.0000, 1.0000]
+  Dice Score: 1.0000 ± 0.0000
+    Range: [1.0000, 1.0000]
+    Median: 1.0000, IQR: [1.0000, 1.0000]
   False Positive Rate: 0.0000 ± 0.0000
-  False Negative Rate: 1.0000 ± 0.0000
-  Boundary Dice: 0.0000 ± 0.0000
-  Boundary FN Rate: 1.0000 ± 0.0000
+  False Negative Rate: 0.0000 ± 0.0000
 
 ----------------------------------------------------------------------
 SIZE vs DICE CORRELATION
 ----------------------------------------------------------------------
-  Liver: r = 0.2950 (p = 0.0000) ***
-  Kidneys: r = 0.3332 (p = 0.0000) ***
-  Spleen: r = nan (p = nan) 
+  Liver: r = 0.3146 (p = 0.0000) ***
+  Kidneys: r = 0.1374 (p = 0.0000) ***
 
 ----------------------------------------------------------------------
 FAILURE ANALYSIS (Dice < 0.5)
 ----------------------------------------------------------------------
-  Total failures: 859
-  Failure rate: 37.69%
-  Liver: 26 failures, worst Dice = 0.0000
-  Kidneys: 131 failures, worst Dice = 0.0000
-  Spleen: 833 failures, worst Dice = 0.0000
+  Total failures: 346
+  Failure rate: 2.62%
+  Liver: 190 failures, worst Dice = 0.0000
+  Kidneys: 159 failures, worst Dice = 0.0000
 
 ----------------------------------------------------------------------
 CONFUSION MATRIX (normalized)
@@ -57,9 +53,9 @@ CONFUSION MATRIX (normalized)
                BG     Liver   Kidneys    Spleen
   Pred→
   True↓
-     BG     0.9987    0.0008    0.0005    0.0000
-  Liver     0.0238    0.9761    0.0001    0.0000
-  Kidneys     0.0569    0.0006    0.9424    0.0000
-  Spleen     0.0304    0.0121    0.9575    0.0000
+     BG     0.9985    0.0009    0.0006    0.0000
+  Liver     0.0253    0.9732    0.0015    0.0000
+  Kidneys     0.0563    0.0220    0.9217    0.0000
+  Spleen     0.0000    0.0000    0.0000    0.0000
 
 ======================================================================

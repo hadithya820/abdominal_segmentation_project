@@ -1,0 +1,105 @@
+{
+  "class_statistics": {
+    "Liver": {
+      "dice": {
+        "mean": 0.940074274779649,
+        "std": 0.17640151135946058,
+        "median": 0.9836623010915753,
+        "min": 0.0,
+        "max": 1.0,
+        "q25": 0.9695929944618831,
+        "q75": 1.0
+      },
+      "false_positive_rate": {
+        "mean": 0.06187717061117153,
+        "std": 0.16056768229298274
+      },
+      "false_negative_rate": {
+        "mean": 0.06512967357147348,
+        "std": 0.17143198332384618
+      },
+      "n_samples": 13187,
+      "boundary": {
+        "dice_mean": 0.6304985993048208,
+        "dice_std": 0.1756891423681455,
+        "fn_rate_mean": 0.19527877621491385,
+        "fn_rate_std": 0.19717797705857307
+      }
+    },
+    "Kidneys": {
+      "dice": {
+        "mean": 0.9327220929606674,
+        "std": 0.16915095113405448,
+        "median": 0.9716373012455438,
+        "min": 0.0,
+        "max": 1.0,
+        "q25": 0.9525805044197994,
+        "q75": 1.0
+      },
+      "false_positive_rate": {
+        "mean": 0.07570400256724419,
+        "std": 0.16543238668241314
+      },
+      "false_negative_rate": {
+        "mean": 0.07278416291633813,
+        "std": 0.14764645425949383
+      },
+      "n_samples": 13187,
+      "boundary": {
+        "dice_mean": 0.662815555699762,
+        "dice_std": 0.14913962363368188,
+        "fn_rate_mean": 0.17859041028512804,
+        "fn_rate_std": 0.16210764622190574
+      }
+    },
+    "Spleen": {
+      "dice": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "false_positive_rate": {
+        "mean": 0,
+        "std": 0
+      },
+      "false_negative_rate": {
+        "mean": 0,
+        "std": 0
+      },
+      "n_samples": 13187
+    }
+  },
+  "size_correlation": {
+    "Liver": {
+      "correlation": 0.3289374979080745,
+      "p_value": 3.067040538249785e-226,
+      "n_samples": 9007
+    },
+    "Kidneys": {
+      "correlation": 0.13520687367852607,
+      "p_value": 3.703418460460728e-38,
+      "n_samples": 9043
+    }
+  },
+  "failure_summary": {
+    "n_failures": 378,
+    "failure_rate": 0.028664593918252823,
+    "per_class_failures": {
+      "Liver": {
+        "count": 241,
+        "mean_dice": 0.10330584460415507,
+        "worst_dice": 0.0
+      },
+      "Kidneys": {
+        "count": 148,
+        "mean_dice": 0.13825046343145725,
+        "worst_dice": 0.0
+      }
+    }
+  },
+  "n_samples": 13187
+}

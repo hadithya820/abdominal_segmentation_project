@@ -32,7 +32,10 @@ pyyaml>=6.0
 jsonschema>=4.17.0
 pillow>=9.5.0
 numpy<2
+psutil>=5.9.0
 
 # Optional: For distributed training
 # pytorch-lightning>=2.0.0
 
+# For 3D model profiling
+einops>=0.6.0

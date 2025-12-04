@@ -1,0 +1,40 @@
+{
+  "model_name": "VNet",
+  "description": "V-Net with residual connections for volumetric segmentation",
+  
+  "data_dir": "data/processed",
+  "train_split": "data/splits/train_cases.json",
+  "val_split": "data/splits/val_cases.json",
+  "output_dir": "results/vnet_baseline",
+  
+  "n_channels": 1,
+  "n_classes": 4,
+  "base_filters": 16,
+  "trilinear": false,
+  "use_checkpoint": true,
+  "deep_supervision": true,
+  
+  "patch_size": [64, 128, 128],
+  "batch_size": 12,
+  "accumulation_steps": 1,
+  "num_workers": 16,
+  "cache_size": 15,
+  "samples_per_volume": 8,
+  "use_augmentation": true,
+  
+  "epochs": 100,
+  "learning_rate": 0.0001,
+  "min_lr": 1e-7,
+  "warmup_epochs": 8,
+  "weight_decay": 1e-5,
+  "use_amp": true,
+  
+  "dice_weight": 0.6,
+  "ce_weight": 0.4,
+  "include_background": false,
+  
+  "early_stopping_patience": 8,
+  "save_every": 10,
+  
+  "notes": "V-Net with PReLU activations and deep supervision. Most memory-efficient model. Memory: ~9GB at batch=12. Throughput: ~8.7 samples/s"
+}

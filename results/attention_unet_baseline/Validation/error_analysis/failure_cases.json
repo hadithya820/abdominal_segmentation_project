@@ -1,0 +1,5062 @@
+[
+  {
+    "sample_id": "sample_33",
+    "Liver": {
+      "dice": 0.9805421686744036,
+      "gt_pixels": 16740,
+      "pred_pixels": 16460,
+      "false_positive": 183,
+      "false_negative": 463,
+      "fp_rate": 0.011117861482374775,
+      "fn_rate": 0.027658303464738555
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 131,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 131,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999236641
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_34",
+    "Liver": {
+      "dice": 0.9851922617623045,
+      "gt_pixels": 16740,
+      "pred_pixels": 16756,
+      "false_positive": 256,
+      "false_negative": 240,
+      "fp_rate": 0.015278109333960803,
+      "fn_rate": 0.01433691756271545
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 131,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 131,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999236641
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_35",
+    "Liver": {
+      "dice": 0.976843605272243,
+      "gt_pixels": 16740,
+      "pred_pixels": 16944,
+      "false_positive": 492,
+      "false_negative": 288,
+      "fp_rate": 0.029036827195450282,
+      "fn_rate": 0.01720430107525854
+    },
+    "Kidneys": {
+      "dice": 0.21192052978729,
+      "gt_pixels": 131,
+      "pred_pixels": 20,
+      "false_positive": 4,
+      "false_negative": 115,
+      "fp_rate": 0.1999999999,
+      "fn_rate": 0.8778625953528348
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_187",
+    "Liver": {
+      "dice": 0.4580419580339503,
+      "gt_pixels": 441,
+      "pred_pixels": 131,
+      "false_positive": 0,
+      "false_negative": 310,
+      "fp_rate": 0.0,
+      "fn_rate": 0.7029478457890488
+    },
+    "Kidneys": {
+      "dice": 0.9288537549315331,
+      "gt_pixels": 539,
+      "pred_pixels": 473,
+      "false_positive": 3,
+      "false_negative": 69,
+      "fp_rate": 0.006342494714453647,
+      "fn_rate": 0.12801484229818155
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_188",
+    "Liver": {
+      "dice": 0.08849557521732321,
+      "gt_pixels": 216,
+      "pred_pixels": 10,
+      "false_positive": 0,
+      "false_negative": 206,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9537037036595507
+    },
+    "Kidneys": {
+      "dice": 0.8614916286018037,
+      "gt_pixels": 373,
+      "pred_pixels": 284,
+      "false_positive": 1,
+      "false_negative": 90,
+      "fp_rate": 0.0035211267604393966,
+      "fn_rate": 0.24128686326430865
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_189",
+    "Liver": {
+      "dice": 0.009216589861326424,
+      "gt_pixels": 216,
+      "pred_pixels": 1,
+      "false_positive": 0,
+      "false_negative": 215,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9953703703242883
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 160,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 160,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999375
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_190",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 216,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 216,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999537037
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 81,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 81,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999998765433
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_443",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 269,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 269,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999628253
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 0,
+      "pred_pixels": 271,
+      "false_positive": 271,
+      "false_negative": 0,
+      "fp_rate": 0.9999999999630996,
+      "fn_rate": 0.0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_579",
+    "Liver": {
+      "dice": 0.9662956873653199,
+      "gt_pixels": 15646,
+      "pred_pixels": 15982,
+      "false_positive": 701,
+      "false_negative": 365,
+      "fp_rate": 0.043861844575119595,
+      "fn_rate": 0.02332864629935873
+    },
+    "Kidneys": {
+      "dice": 0.03867403314810293,
+      "gt_pixels": 355,
+      "pred_pixels": 7,
+      "false_positive": 0,
+      "false_negative": 348,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9802816901132315
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_580",
+    "Liver": {
+      "dice": 0.9740322424941358,
+      "gt_pixels": 15646,
+      "pred_pixels": 15431,
+      "false_positive": 296,
+      "false_negative": 511,
+      "fp_rate": 0.019182165770190406,
+      "fn_rate": 0.032660104819102226
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 355,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 355,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999971831
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_581",
+    "Liver": {
+      "dice": 0.9556089951901223,
+      "gt_pixels": 15646,
+      "pred_pixels": 15126,
+      "false_positive": 423,
+      "false_negative": 943,
+      "fp_rate": 0.0279650932169589,
+      "fn_rate": 0.060270995781630914
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 355,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 355,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999971831
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_667",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 300,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 300,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999666667
+    },
+    "Kidneys": {
+      "dice": 0.9712633607841499,
+      "gt_pixels": 5845,
+      "pred_pixels": 5569,
+      "false_positive": 26,
+      "false_negative": 302,
+      "fp_rate": 0.004668701741776497,
+      "fn_rate": 0.05166809238656687
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_915",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 179,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 179,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999944134
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_1285",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 205,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 205,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999512195
+    },
+    "Kidneys": {
+      "dice": 0.9459349593486321,
+      "gt_pixels": 4817,
+      "pred_pixels": 5023,
+      "false_positive": 369,
+      "false_negative": 163,
+      "fp_rate": 0.07346207445734927,
+      "fn_rate": 0.03383848868583384
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_1506",
+    "Liver": {
+      "dice": 0.49169435215130075,
+      "gt_pixels": 148,
+      "pred_pixels": 454,
+      "false_positive": 306,
+      "false_negative": 0,
+      "fp_rate": 0.6740088105578412,
+      "fn_rate": 0.0
+    },
+    "Kidneys": {
+      "dice": 0.9714034315871409,
+      "gt_pixels": 4541,
+      "pred_pixels": 4551,
+      "false_positive": 135,
+      "false_negative": 125,
+      "fp_rate": 0.029663810151549848,
+      "fn_rate": 0.027526976436847553
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_1945",
+    "Liver": {
+      "dice": 0.9762407602953843,
+      "gt_pixels": 17022,
+      "pred_pixels": 17070,
+      "false_positive": 429,
+      "false_negative": 381,
+      "fp_rate": 0.025131810193306892,
+      "fn_rate": 0.02238279873104078
+    },
+    "Kidneys": {
+      "dice": 0.13592233009562113,
+      "gt_pixels": 864,
+      "pred_pixels": 63,
+      "false_positive": 0,
+      "false_negative": 801,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9270833333226032
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2018",
+    "Liver": {
+      "dice": 0.3804878048749554,
+      "gt_pixels": 995,
+      "pred_pixels": 235,
+      "false_positive": 1,
+      "false_negative": 761,
+      "fp_rate": 0.004255319148755093,
+      "fn_rate": 0.7648241205953284
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2019",
+    "Liver": {
+      "dice": 0.021868787276124565,
+      "gt_pixels": 995,
+      "pred_pixels": 11,
+      "false_positive": 0,
+      "false_negative": 984,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9889447236081513
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2065",
+    "Liver": {
+      "dice": 0.980919577933967,
+      "gt_pixels": 9065,
+      "pred_pixels": 9226,
+      "false_positive": 255,
+      "false_negative": 94,
+      "fp_rate": 0.02763928029478903,
+      "fn_rate": 0.010369553226684643
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 454,
+      "pred_pixels": 1,
+      "false_positive": 1,
+      "false_negative": 454,
+      "fp_rate": 0.9999999900000002,
+      "fn_rate": 0.9999999999779735
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2191",
+    "Liver": {
+      "dice": 0.8887730636918123,
+      "gt_pixels": 10455,
+      "pred_pixels": 8731,
+      "false_positive": 205,
+      "false_negative": 1929,
+      "fp_rate": 0.023479555606432848,
+      "fn_rate": 0.18450502152062695
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 436,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 436,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999770642
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2192",
+    "Liver": {
+      "dice": 0.832307094912724,
+      "gt_pixels": 10455,
+      "pred_pixels": 7572,
+      "false_positive": 70,
+      "false_negative": 2953,
+      "fp_rate": 0.009244585314303692,
+      "fn_rate": 0.2824485891915041
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 436,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 436,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999770642
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2195",
+    "Liver": {
+      "dice": 0.47478433974705575,
+      "gt_pixels": 4508,
+      "pred_pixels": 1520,
+      "false_positive": 89,
+      "false_negative": 3077,
+      "fp_rate": 0.05855263157856216,
+      "fn_rate": 0.6825643300783439
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2196",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 231,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 231,
+      "fp_rate": 0.0,
+      "fn_rate": 0.99999999995671
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2197",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 231,
+      "pred_pixels": 88,
+      "false_positive": 88,
+      "false_negative": 231,
+      "fp_rate": 0.9999999998863637,
+      "fn_rate": 0.99999999995671
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2545",
+    "Liver": {
+      "dice": 0.9689025082280761,
+      "gt_pixels": 17132,
+      "pred_pixels": 18112,
+      "false_positive": 1038,
+      "false_negative": 58,
+      "fp_rate": 0.05731007067134645,
+      "fn_rate": 0.0033854774690617643
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 104,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 104,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999038462
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2680",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 124,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 124,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999193548
+    },
+    "Kidneys": {
+      "dice": 0.9700061842903989,
+      "gt_pixels": 3231,
+      "pred_pixels": 3237,
+      "false_positive": 100,
+      "false_negative": 94,
+      "fp_rate": 0.03089280197704389,
+      "fn_rate": 0.029093160012290026
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2728",
+    "Liver": {
+      "dice": 0.45562130177065463,
+      "gt_pixels": 763,
+      "pred_pixels": 251,
+      "false_positive": 20,
+      "false_negative": 532,
+      "fp_rate": 0.07968127489722385,
+      "fn_rate": 0.6972477064128801
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2735",
+    "Liver": {
+      "dice": 0.9476711472329179,
+      "gt_pixels": 8133,
+      "pred_pixels": 7862,
+      "false_positive": 283,
+      "false_negative": 554,
+      "fp_rate": 0.03599592978881201,
+      "fn_rate": 0.06811754580097366
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 127,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 127,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999212599
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2934",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 221,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 221,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999547511
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2974",
+    "Liver": {
+      "dice": 0.011764705881660899,
+      "gt_pixels": 169,
+      "pred_pixels": 1,
+      "false_positive": 0,
+      "false_negative": 168,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9940828401778649
+    },
+    "Kidneys": {
+      "dice": 0.9572265468253291,
+      "gt_pixels": 6290,
+      "pred_pixels": 6171,
+      "false_positive": 207,
+      "false_negative": 326,
+      "fp_rate": 0.03354399611078667,
+      "fn_rate": 0.05182829888704002
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_2975",
+    "Liver": {
+      "dice": 0.4843049327137083,
+      "gt_pixels": 169,
+      "pred_pixels": 54,
+      "false_positive": 0,
+      "false_negative": 115,
+      "fp_rate": 0.0,
+      "fn_rate": 0.6804733727408003
+    },
+    "Kidneys": {
+      "dice": 0.9629687992428593,
+      "gt_pixels": 6290,
+      "pred_pixels": 6402,
+      "false_positive": 291,
+      "false_negative": 179,
+      "fp_rate": 0.04545454545447446,
+      "fn_rate": 0.02845786963429498
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_3111",
+    "Liver": {
+      "dice": 0.8115221523602698,
+      "gt_pixels": 3165,
+      "pred_pixels": 3674,
+      "false_positive": 899,
+      "false_negative": 390,
+      "fp_rate": 0.2446924333145218,
+      "fn_rate": 0.12322274881477654
+    },
+    "Kidneys": {
+      "dice": 0.3487544483861653,
+      "gt_pixels": 232,
+      "pred_pixels": 49,
+      "false_positive": 0,
+      "false_negative": 183,
+      "fp_rate": 0.0,
+      "fn_rate": 0.7887931034142761
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_3112",
+    "Liver": {
+      "dice": 0.8125984251955707,
+      "gt_pixels": 3165,
+      "pred_pixels": 3185,
+      "false_positive": 605,
+      "false_negative": 585,
+      "fp_rate": 0.18995290423802214,
+      "fn_rate": 0.18483412322216483
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 232,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 232,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999568965
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_3834",
+    "Liver": {
+      "dice": 0.4009900989999755,
+      "gt_pixels": 323,
+      "pred_pixels": 81,
+      "false_positive": 0,
+      "false_negative": 242,
+      "fp_rate": 0.0,
+      "fn_rate": 0.7492260061687546
+    },
+    "Kidneys": {
+      "dice": 0.9019484600865777,
+      "gt_pixels": 3492,
+      "pred_pixels": 2872,
+      "false_positive": 2,
+      "false_negative": 622,
+      "fp_rate": 0.0006963788300811408,
+      "fn_rate": 0.17812142038895154
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_3981",
+    "Liver": {
+      "dice": 0.9566254439861667,
+      "gt_pixels": 18592,
+      "pred_pixels": 19979,
+      "false_positive": 1530,
+      "false_negative": 143,
+      "fp_rate": 0.07658040942986306,
+      "fn_rate": 0.00769148020653631
+    },
+    "Kidneys": {
+      "dice": 0.3272450532699601,
+      "gt_pixels": 215,
+      "pred_pixels": 1099,
+      "false_positive": 884,
+      "false_negative": 0,
+      "fp_rate": 0.8043676069080586,
+      "fn_rate": 0.0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4358",
+    "Liver": {
+      "dice": 0.4103896103789509,
+      "gt_pixels": 160,
+      "pred_pixels": 225,
+      "false_positive": 146,
+      "false_negative": 81,
+      "fp_rate": 0.6488888888600494,
+      "fn_rate": 0.5062499999683594
+    },
+    "Kidneys": {
+      "dice": 0.9443780554041583,
+      "gt_pixels": 9310,
+      "pred_pixels": 9100,
+      "false_positive": 407,
+      "false_negative": 617,
+      "fp_rate": 0.04472527472522557,
+      "fn_rate": 0.06627282491937027
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4359",
+    "Liver": {
+      "dice": 0.4894894894821398,
+      "gt_pixels": 327,
+      "pred_pixels": 339,
+      "false_positive": 176,
+      "false_negative": 164,
+      "fp_rate": 0.5191740412826202,
+      "fn_rate": 0.5015290519724303
+    },
+    "Kidneys": {
+      "dice": 0.9368753560142214,
+      "gt_pixels": 10110,
+      "pred_pixels": 9201,
+      "false_positive": 155,
+      "false_negative": 1064,
+      "fp_rate": 0.01684599500052511,
+      "fn_rate": 0.1052423343223489
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4371",
+    "Liver": {
+      "dice": 0.4914538932259005,
+      "gt_pixels": 4103,
+      "pred_pixels": 5375,
+      "false_positive": 3046,
+      "false_negative": 1774,
+      "fp_rate": 0.5666976744175504,
+      "fn_rate": 0.43236656105183435
+    },
+    "Kidneys": {
+      "dice": 0.7771654190997873,
+      "gt_pixels": 12679,
+      "pred_pixels": 11635,
+      "false_positive": 2187,
+      "false_negative": 3231,
+      "fp_rate": 0.18796733992248563,
+      "fn_rate": 0.25483082261987944
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4372",
+    "Liver": {
+      "dice": 0.48182803112333117,
+      "gt_pixels": 4289,
+      "pred_pixels": 5864,
+      "false_positive": 3418,
+      "false_negative": 1843,
+      "fp_rate": 0.5828785811722665,
+      "fn_rate": 0.429703893680509
+    },
+    "Kidneys": {
+      "dice": 0.749683583064243,
+      "gt_pixels": 13044,
+      "pred_pixels": 11449,
+      "false_positive": 2268,
+      "false_negative": 3863,
+      "fp_rate": 0.19809590357219137,
+      "fn_rate": 0.29615148727361534
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4493",
+    "Liver": {
+      "dice": 0.9769172071726795,
+      "gt_pixels": 31222,
+      "pred_pixels": 31682,
+      "false_positive": 956,
+      "false_negative": 496,
+      "fp_rate": 0.030174862698052467,
+      "fn_rate": 0.0158862340657178
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 282,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 282,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999964539
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4494",
+    "Liver": {
+      "dice": 0.977332753836218,
+      "gt_pixels": 29433,
+      "pred_pixels": 30389,
+      "false_positive": 1156,
+      "false_negative": 200,
+      "fp_rate": 0.03804008029219848,
+      "fn_rate": 0.006795093942171442
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 282,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 282,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999964539
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4638",
+    "Liver": {
+      "dice": 0.9198513155654819,
+      "gt_pixels": 19367,
+      "pred_pixels": 21794,
+      "false_positive": 2863,
+      "false_negative": 436,
+      "fp_rate": 0.13136643112777308,
+      "fn_rate": 0.02251252129910543
+    },
+    "Kidneys": {
+      "dice": 0.007722007721948093,
+      "gt_pixels": 1288,
+      "pred_pixels": 7,
+      "false_positive": 2,
+      "false_negative": 1283,
+      "fp_rate": 0.2857142853061225,
+      "fn_rate": 0.9961180124146265
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4639",
+    "Liver": {
+      "dice": 0.9079141690554887,
+      "gt_pixels": 21462,
+      "pred_pixels": 24582,
+      "false_positive": 3680,
+      "false_negative": 560,
+      "fp_rate": 0.1497030347408064,
+      "fn_rate": 0.0260926288323427
+    },
+    "Kidneys": {
+      "dice": 0.0032089851584307704,
+      "gt_pixels": 2489,
+      "pred_pixels": 4,
+      "false_positive": 0,
+      "false_negative": 2485,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9983929288830921
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4640",
+    "Liver": {
+      "dice": 0.9031248678589152,
+      "gt_pixels": 21447,
+      "pred_pixels": 25851,
+      "false_positive": 4493,
+      "false_negative": 89,
+      "fp_rate": 0.17380372132599364,
+      "fn_rate": 0.004149764535830582
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 2489,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 2489,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999959823
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4641",
+    "Liver": {
+      "dice": 0.9151329462428138,
+      "gt_pixels": 21376,
+      "pred_pixels": 25297,
+      "false_positive": 3941,
+      "false_negative": 20,
+      "fp_rate": 0.15578922401859674,
+      "fn_rate": 0.0009356287425145324
+    },
+    "Kidneys": {
+      "dice": 0.24931318681233067,
+      "gt_pixels": 2489,
+      "pred_pixels": 423,
+      "false_positive": 60,
+      "false_negative": 2126,
+      "fp_rate": 0.1418439716278524,
+      "fn_rate": 0.8541582965011887
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4770",
+    "Liver": {
+      "dice": 0.4999999999877451,
+      "gt_pixels": 267,
+      "pred_pixels": 141,
+      "false_positive": 39,
+      "false_negative": 165,
+      "fp_rate": 0.2765957446612343,
+      "fn_rate": 0.6179775280667424
+    },
+    "Kidneys": {
+      "dice": 0.9505903587268176,
+      "gt_pixels": 6486,
+      "pred_pixels": 6811,
+      "false_positive": 491,
+      "false_negative": 166,
+      "fp_rate": 0.07208926736151507,
+      "fn_rate": 0.02559358618559113
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4771",
+    "Liver": {
+      "dice": 0.07713498622377038,
+      "gt_pixels": 103,
+      "pred_pixels": 260,
+      "false_positive": 246,
+      "false_negative": 89,
+      "fp_rate": 0.9461538461174556,
+      "fn_rate": 0.8640776698190217
+    },
+    "Kidneys": {
+      "dice": 0.9449576896196374,
+      "gt_pixels": 6233,
+      "pred_pixels": 6648,
+      "false_positive": 562,
+      "false_negative": 147,
+      "fp_rate": 0.08453670276762254,
+      "fn_rate": 0.023584148884929275
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4772",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 107,
+      "pred_pixels": 312,
+      "false_positive": 312,
+      "false_negative": 107,
+      "fp_rate": 0.9999999999679486,
+      "fn_rate": 0.9999999999065421
+    },
+    "Kidneys": {
+      "dice": 0.9553365162475317,
+      "gt_pixels": 6458,
+      "pred_pixels": 6528,
+      "false_positive": 325,
+      "false_negative": 255,
+      "fp_rate": 0.04978553921561001,
+      "fn_rate": 0.03948590895007822
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4811",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 0,
+      "pred_pixels": 78,
+      "false_positive": 78,
+      "false_negative": 0,
+      "fp_rate": 0.999999999871795,
+      "fn_rate": 0.0
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 143,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 143,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999300698
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4883",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 150,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 150,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999333333
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_4884",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 150,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 150,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999333333
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_5343",
+    "Liver": {
+      "dice": 0.9461805555473423,
+      "gt_pixels": 602,
+      "pred_pixels": 550,
+      "false_positive": 5,
+      "false_negative": 57,
+      "fp_rate": 0.0090909090907438,
+      "fn_rate": 0.09468438538048697
+    },
+    "Kidneys": {
+      "dice": 0.45283018866215735,
+      "gt_pixels": 205,
+      "pred_pixels": 60,
+      "false_positive": 0,
+      "false_negative": 145,
+      "fp_rate": 0.0,
+      "fn_rate": 0.7073170731362284
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_5771",
+    "Liver": {
+      "dice": 0.4382165605039718,
+      "gt_pixels": 172,
+      "pred_pixels": 613,
+      "false_positive": 441,
+      "false_negative": 0,
+      "fp_rate": 0.7194127242949525,
+      "fn_rate": 0.0
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_5772",
+    "Liver": {
+      "dice": 0.4857142857043732,
+      "gt_pixels": 172,
+      "pred_pixels": 318,
+      "false_positive": 199,
+      "false_negative": 53,
+      "fp_rate": 0.6257861635023337,
+      "fn_rate": 0.3081395348658058
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_5773",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 172,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 172,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999418604
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_5810",
+    "Liver": {
+      "dice": 0.8959435626075958,
+      "gt_pixels": 1877,
+      "pred_pixels": 1525,
+      "false_positive": 1,
+      "false_negative": 353,
+      "fp_rate": 0.000655737704913733,
+      "fn_rate": 0.18806606286527403
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 126,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 126,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999206349
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_5811",
+    "Liver": {
+      "dice": 0.37207285342423213,
+      "gt_pixels": 1877,
+      "pred_pixels": 429,
+      "false_positive": 0,
+      "false_negative": 1448,
+      "fp_rate": 0.0,
+      "fn_rate": 0.7714437932830505
+    },
+    "Kidneys": {
+      "dice": 0.9374999999633788,
+      "gt_pixels": 126,
+      "pred_pixels": 130,
+      "false_positive": 10,
+      "false_negative": 6,
+      "fp_rate": 0.07692307691715976,
+      "fn_rate": 0.047619047615268334
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_5812",
+    "Liver": {
+      "dice": 0.20759493670798485,
+      "gt_pixels": 2124,
+      "pred_pixels": 246,
+      "false_positive": 0,
+      "false_negative": 1878,
+      "fp_rate": 0.0,
+      "fn_rate": 0.8841807909562892
+    },
+    "Kidneys": {
+      "dice": 0.5295887662935849,
+      "gt_pixels": 313,
+      "pred_pixels": 684,
+      "false_positive": 420,
+      "false_negative": 49,
+      "fp_rate": 0.6140350877103211,
+      "fn_rate": 0.1565495207617716
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_5813",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 2124,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 2124,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999995292
+    },
+    "Kidneys": {
+      "dice": 0.38811630846783746,
+      "gt_pixels": 313,
+      "pred_pixels": 1269,
+      "false_positive": 962,
+      "false_negative": 6,
+      "fp_rate": 0.7580772261563588,
+      "fn_rate": 0.01916932907286999
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_5814",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 2124,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 2124,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999995292
+    },
+    "Kidneys": {
+      "dice": 0.4408450704194307,
+      "gt_pixels": 313,
+      "pred_pixels": 1107,
+      "false_positive": 794,
+      "false_negative": 0,
+      "fp_rate": 0.7172538391985795,
+      "fn_rate": 0.0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_5815",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 2496,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 2496,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999959936
+    },
+    "Kidneys": {
+      "dice": 0.6327077747955351,
+      "gt_pixels": 690,
+      "pred_pixels": 1175,
+      "false_positive": 585,
+      "false_negative": 100,
+      "fp_rate": 0.49787234042129475,
+      "fn_rate": 0.14492753622978366
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_5816",
+    "Liver": {
+      "dice": 0.27040110649975657,
+      "gt_pixels": 2496,
+      "pred_pixels": 396,
+      "false_positive": 5,
+      "false_negative": 2105,
+      "fp_rate": 0.01262626262594378,
+      "fn_rate": 0.8433493589709802
+    },
+    "Kidneys": {
+      "dice": 0.6214634146311149,
+      "gt_pixels": 690,
+      "pred_pixels": 1360,
+      "false_positive": 723,
+      "false_negative": 53,
+      "fp_rate": 0.5316176470549147,
+      "fn_rate": 0.07681159420178534
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_5817",
+    "Liver": {
+      "dice": 0.8708757637456805,
+      "gt_pixels": 2496,
+      "pred_pixels": 2414,
+      "false_positive": 276,
+      "false_negative": 358,
+      "fp_rate": 0.11433305716605496,
+      "fn_rate": 0.14342948717891255
+    },
+    "Kidneys": {
+      "dice": 0.44745538664756296,
+      "gt_pixels": 690,
+      "pred_pixels": 2336,
+      "false_positive": 1659,
+      "false_negative": 13,
+      "fp_rate": 0.7101883561613435,
+      "fn_rate": 0.018840579709871876
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_6127",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 104,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 104,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999038462
+    },
+    "Kidneys": {
+      "dice": 0.9418232962524717,
+      "gt_pixels": 3818,
+      "pred_pixels": 4003,
+      "false_positive": 320,
+      "false_negative": 135,
+      "fp_rate": 0.0799400449660756,
+      "fn_rate": 0.03535882661069838
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_6284",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 122,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 122,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999180328
+    },
+    "Kidneys": {
+      "dice": 0.9544513457549878,
+      "gt_pixels": 6704,
+      "pred_pixels": 6820,
+      "false_positive": 366,
+      "false_negative": 250,
+      "fp_rate": 0.05366568914948143,
+      "fn_rate": 0.03729116945101836
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_6809",
+    "Liver": {
+      "dice": 0.9839547321910488,
+      "gt_pixels": 19451,
+      "pred_pixels": 19252,
+      "false_positive": 211,
+      "false_negative": 410,
+      "fp_rate": 0.010959900270096114,
+      "fn_rate": 0.02107860778365067
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 280,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 280,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999642857
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_6864",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 903,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 903,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999889257
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_6865",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 1801,
+      "pred_pixels": 2,
+      "false_positive": 2,
+      "false_negative": 1801,
+      "fp_rate": 0.999999995,
+      "fn_rate": 0.9999999999944476
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_6866",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 3219,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 3219,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999968935
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_6867",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 3441,
+      "pred_pixels": 3,
+      "false_positive": 3,
+      "false_negative": 3441,
+      "fp_rate": 0.9999999966666667,
+      "fn_rate": 0.9999999999970939
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_6868",
+    "Liver": {
+      "dice": 0.33831828442390194,
+      "gt_pixels": 5881,
+      "pred_pixels": 1207,
+      "false_positive": 8,
+      "false_negative": 4682,
+      "fp_rate": 0.006628003313946745,
+      "fn_rate": 0.7961231083135587
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_6872",
+    "Liver": {
+      "dice": 0.9308615049067989,
+      "gt_pixels": 9631,
+      "pred_pixels": 8709,
+      "false_positive": 173,
+      "false_negative": 1095,
+      "fp_rate": 0.019864507980227503,
+      "fn_rate": 0.11369535873729239
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 230,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 230,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999565217
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_6873",
+    "Liver": {
+      "dice": 0.9148028809699986,
+      "gt_pixels": 11073,
+      "pred_pixels": 10031,
+      "false_positive": 378,
+      "false_negative": 1420,
+      "fp_rate": 0.03768318213534275,
+      "fn_rate": 0.1282398627290452
+    },
+    "Kidneys": {
+      "dice": 0.36689038030499127,
+      "gt_pixels": 274,
+      "pred_pixels": 173,
+      "false_positive": 91,
+      "false_negative": 192,
+      "fp_rate": 0.5260115606632363,
+      "fn_rate": 0.7007299269817252
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_7033",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 262,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 262,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999961832
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_7316",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 1110,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 1110,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999909911
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_7340",
+    "Liver": {
+      "dice": 0.9739021807020141,
+      "gt_pixels": 18576,
+      "pred_pixels": 18247,
+      "false_positive": 316,
+      "false_negative": 645,
+      "fp_rate": 0.01731791527373414,
+      "fn_rate": 0.03472222222220353
+    },
+    "Kidneys": {
+      "dice": 0.2955665024582009,
+      "gt_pixels": 519,
+      "pred_pixels": 90,
+      "false_positive": 0,
+      "false_negative": 429,
+      "fp_rate": 0.0,
+      "fn_rate": 0.8265895953597959
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_7747",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 215,
+      "pred_pixels": 60,
+      "false_positive": 60,
+      "false_negative": 215,
+      "fp_rate": 0.9999999998333333,
+      "fn_rate": 0.9999999999534883
+    },
+    "Kidneys": {
+      "dice": 0.8838598145514948,
+      "gt_pixels": 3550,
+      "pred_pixels": 2813,
+      "false_positive": 1,
+      "false_negative": 738,
+      "fp_rate": 0.0003554923569130626,
+      "fn_rate": 0.20788732394307638
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_7748",
+    "Liver": {
+      "dice": 0.38902743141174495,
+      "gt_pixels": 215,
+      "pred_pixels": 186,
+      "false_positive": 108,
+      "false_negative": 137,
+      "fp_rate": 0.580645161259105,
+      "fn_rate": 0.6372093022959437
+    },
+    "Kidneys": {
+      "dice": 0.9002620625853242,
+      "gt_pixels": 3550,
+      "pred_pixels": 2937,
+      "false_positive": 17,
+      "false_negative": 630,
+      "fp_rate": 0.005788219271345631,
+      "fn_rate": 0.17746478873189447
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_7863",
+    "Liver": {
+      "dice": 0.947026112971782,
+      "gt_pixels": 30699,
+      "pred_pixels": 30803,
+      "false_positive": 1681,
+      "false_negative": 1577,
+      "fp_rate": 0.05457260656427797,
+      "fn_rate": 0.05136975145768547
+    },
+    "Kidneys": {
+      "dice": 0.3080840229133795,
+      "gt_pixels": 244,
+      "pred_pixels": 1327,
+      "false_positive": 1085,
+      "false_negative": 2,
+      "fp_rate": 0.8176337603555567,
+      "fn_rate": 0.008196721311139478
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_7867",
+    "Liver": {
+      "dice": 0.9786052588598761,
+      "gt_pixels": 30699,
+      "pred_pixels": 30531,
+      "false_positive": 571,
+      "false_negative": 739,
+      "fp_rate": 0.018702302577701776,
+      "fn_rate": 0.02407244535651843
+    },
+    "Kidneys": {
+      "dice": 0.016260162600965033,
+      "gt_pixels": 244,
+      "pred_pixels": 2,
+      "false_positive": 0,
+      "false_negative": 242,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9918032786478769
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_8186",
+    "Liver": {
+      "dice": 0.44444444442947995,
+      "gt_pixels": 231,
+      "pred_pixels": 66,
+      "false_positive": 0,
+      "false_negative": 165,
+      "fp_rate": 0.0,
+      "fn_rate": 0.7142857142547928
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_8187",
+    "Liver": {
+      "dice": 0.91799999999082,
+      "gt_pixels": 460,
+      "pred_pixels": 540,
+      "false_positive": 81,
+      "false_negative": 1,
+      "fp_rate": 0.14999999999722222,
+      "fn_rate": 0.002173913043431002
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 234,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 234,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999957265
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_8188",
+    "Liver": {
+      "dice": 0.591259640099028,
+      "gt_pixels": 460,
+      "pred_pixels": 1096,
+      "false_positive": 636,
+      "false_negative": 0,
+      "fp_rate": 0.5802919707976252,
+      "fn_rate": 0.0
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 309,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 309,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999676376
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_8679",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 162,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 162,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999382716
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_8680",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.1979166666563585,
+      "gt_pixels": 162,
+      "pred_pixels": 30,
+      "false_positive": 11,
+      "false_negative": 143,
+      "fp_rate": 0.3666666665444444,
+      "fn_rate": 0.8827160493282273
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_9476",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 518,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 518,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999980695
+    },
+    "Kidneys": {
+      "dice": 0.9604737994071324,
+      "gt_pixels": 7927,
+      "pred_pixels": 7607,
+      "false_positive": 147,
+      "false_negative": 467,
+      "fp_rate": 0.0193243065597222,
+      "fn_rate": 0.058912577267492224
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_9477",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 518,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 518,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999980695
+    },
+    "Kidneys": {
+      "dice": 0.966483305615347,
+      "gt_pixels": 7927,
+      "pred_pixels": 7707,
+      "false_positive": 152,
+      "false_negative": 372,
+      "fp_rate": 0.019722330349007756,
+      "fn_rate": 0.04692822000750987
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_9478",
+    "Liver": {
+      "dice": 0.27677100493777973,
+      "gt_pixels": 518,
+      "pred_pixels": 89,
+      "false_positive": 5,
+      "false_negative": 434,
+      "fp_rate": 0.05617977527458655,
+      "fn_rate": 0.8378378378216633
+    },
+    "Kidneys": {
+      "dice": 0.9677296646161365,
+      "gt_pixels": 7927,
+      "pred_pixels": 7846,
+      "false_positive": 214,
+      "false_negative": 295,
+      "fp_rate": 0.027275044608683054,
+      "fn_rate": 0.037214583070471534
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_9674",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 102,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 102,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999019609
+    },
+    "Kidneys": {
+      "dice": 0.9705426356576609,
+      "gt_pixels": 3898,
+      "pred_pixels": 3842,
+      "false_positive": 86,
+      "false_negative": 142,
+      "fp_rate": 0.02238417490884335,
+      "fn_rate": 0.036428937916786995
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_9725",
+    "Liver": {
+      "dice": 0.9028595636513862,
+      "gt_pixels": 10963,
+      "pred_pixels": 12642,
+      "false_positive": 1986,
+      "false_negative": 307,
+      "fp_rate": 0.15709539629792982,
+      "fn_rate": 0.028003283772664412
+    },
+    "Kidneys": {
+      "dice": 0.42372428533148887,
+      "gt_pixels": 2831,
+      "pred_pixels": 912,
+      "false_positive": 119,
+      "false_negative": 2038,
+      "fp_rate": 0.13048245613892015,
+      "fn_rate": 0.7198869657339461
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_9794",
+    "Liver": {
+      "dice": 0.9890548853557185,
+      "gt_pixels": 24937,
+      "pred_pixels": 25131,
+      "false_positive": 371,
+      "false_negative": 177,
+      "fp_rate": 0.014762643746761067,
+      "fn_rate": 0.00709788667441669
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 118,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 118,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999152543
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_9902",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 179,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 179,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999944134
+    },
+    "Kidneys": {
+      "dice": 0.952989392477154,
+      "gt_pixels": 4147,
+      "pred_pixels": 4149,
+      "false_positive": 196,
+      "false_negative": 194,
+      "fp_rate": 0.04724029886708306,
+      "fn_rate": 0.04678080540138225
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_9903",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 179,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 179,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999944134
+    },
+    "Kidneys": {
+      "dice": 0.9477054429017576,
+      "gt_pixels": 4147,
+      "pred_pixels": 4286,
+      "false_positive": 290,
+      "false_negative": 151,
+      "fp_rate": 0.06766215585611839,
+      "fn_rate": 0.036411863997983095
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_9904",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 401,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 401,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999750623
+    },
+    "Kidneys": {
+      "dice": 0.9115238205088112,
+      "gt_pixels": 4244,
+      "pred_pixels": 4425,
+      "false_positive": 474,
+      "false_negative": 293,
+      "fp_rate": 0.10711864406755453,
+      "fn_rate": 0.06903864278965825
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_10097",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 332,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 332,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999698795
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_10098",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 332,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 332,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999698795
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_10099",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 930,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 930,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999892473
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_10522",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 944,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 944,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999894068
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_10692",
+    "Liver": {
+      "dice": 0.0211640211636479,
+      "gt_pixels": 561,
+      "pred_pixels": 6,
+      "false_positive": 0,
+      "false_negative": 555,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9893048128165899
+    },
+    "Kidneys": {
+      "dice": 0.9638362093507808,
+      "gt_pixels": 9076,
+      "pred_pixels": 8483,
+      "false_positive": 21,
+      "false_negative": 614,
+      "fp_rate": 0.0024755393139190432,
+      "fn_rate": 0.067650947553914
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11324",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 0,
+      "pred_pixels": 3,
+      "false_positive": 3,
+      "false_negative": 0,
+      "fp_rate": 0.9999999966666667,
+      "fn_rate": 0.0
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 187,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 187,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999946524
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11325",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.18446601940852106,
+      "gt_pixels": 187,
+      "pred_pixels": 19,
+      "false_positive": 0,
+      "false_negative": 168,
+      "fp_rate": 0.0,
+      "fn_rate": 0.898395721877091
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11358",
+    "Liver": {
+      "dice": 0.45680819911483445,
+      "gt_pixels": 156,
+      "pred_pixels": 527,
+      "false_positive": 371,
+      "false_negative": 0,
+      "fp_rate": 0.703984819720987,
+      "fn_rate": 0.0
+    },
+    "Kidneys": {
+      "dice": 0.9602687362440865,
+      "gt_pixels": 8376,
+      "pred_pixels": 8890,
+      "false_positive": 600,
+      "false_negative": 86,
+      "fp_rate": 0.06749156355447976,
+      "fn_rate": 0.010267430754524513
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11477",
+    "Liver": {
+      "dice": 0.9236490748526961,
+      "gt_pixels": 39821,
+      "pred_pixels": 36275,
+      "false_positive": 1132,
+      "false_negative": 4678,
+      "fp_rate": 0.03120606478289974,
+      "fn_rate": 0.11747570377436091
+    },
+    "Kidneys": {
+      "dice": 0.4745624745605431,
+      "gt_pixels": 1493,
+      "pred_pixels": 964,
+      "false_positive": 381,
+      "false_negative": 910,
+      "fp_rate": 0.39522821576353495,
+      "fn_rate": 0.6095110515699297
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11478",
+    "Liver": {
+      "dice": 0.9237019603717049,
+      "gt_pixels": 39821,
+      "pred_pixels": 36236,
+      "false_positive": 1109,
+      "false_negative": 4694,
+      "fp_rate": 0.030604923280706867,
+      "fn_rate": 0.1178775018206178
+    },
+    "Kidneys": {
+      "dice": 0.03690987124447678,
+      "gt_pixels": 1493,
+      "pred_pixels": 837,
+      "false_positive": 794,
+      "false_negative": 1450,
+      "fp_rate": 0.9486260453889053,
+      "fn_rate": 0.9711989283257121
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11479",
+    "Liver": {
+      "dice": 0.9430069164486621,
+      "gt_pixels": 39821,
+      "pred_pixels": 37820,
+      "false_positive": 1212,
+      "false_negative": 3213,
+      "fp_rate": 0.03204653622421152,
+      "fn_rate": 0.08068607016396358
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 1493,
+      "pred_pixels": 772,
+      "false_positive": 772,
+      "false_negative": 1493,
+      "fp_rate": 0.9999999999870466,
+      "fn_rate": 0.9999999999933021
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11480",
+    "Liver": {
+      "dice": 0.9409721348200291,
+      "gt_pixels": 39821,
+      "pred_pixels": 39633,
+      "false_positive": 2251,
+      "false_negative": 2439,
+      "fp_rate": 0.056796104256539554,
+      "fn_rate": 0.061249089676286075
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 1493,
+      "pred_pixels": 189,
+      "false_positive": 189,
+      "false_negative": 1493,
+      "fp_rate": 0.9999999999470899,
+      "fn_rate": 0.9999999999933021
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11538",
+    "Liver": {
+      "dice": 0.39705882351481403,
+      "gt_pixels": 217,
+      "pred_pixels": 55,
+      "false_positive": 1,
+      "false_negative": 163,
+      "fp_rate": 0.018181818178512395,
+      "fn_rate": 0.7511520736981036
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 145,
+      "pred_pixels": 2971,
+      "false_positive": 2971,
+      "false_negative": 145,
+      "fp_rate": 0.9999999999966341,
+      "fn_rate": 0.9999999999310344
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11539",
+    "Liver": {
+      "dice": 0.6366874443426684,
+      "gt_pixels": 1523,
+      "pred_pixels": 723,
+      "false_positive": 8,
+      "false_negative": 808,
+      "fp_rate": 0.011065006915476279,
+      "fn_rate": 0.5305318450391955
+    },
+    "Kidneys": {
+      "dice": 0.005281690140829572,
+      "gt_pixels": 221,
+      "pred_pixels": 3187,
+      "false_positive": 3178,
+      "false_negative": 212,
+      "fp_rate": 0.9971760276090456,
+      "fn_rate": 0.9592760180561414
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11540",
+    "Liver": {
+      "dice": 0.8696576653181594,
+      "gt_pixels": 2643,
+      "pred_pixels": 2060,
+      "false_positive": 15,
+      "false_negative": 598,
+      "fp_rate": 0.007281553398022905,
+      "fn_rate": 0.22625804010508416
+    },
+    "Kidneys": {
+      "dice": 0.11037974683516359,
+      "gt_pixels": 454,
+      "pred_pixels": 3496,
+      "false_positive": 3278,
+      "false_negative": 236,
+      "fp_rate": 0.9376430205922837,
+      "fn_rate": 0.5198237885348056
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11541",
+    "Liver": {
+      "dice": 0.9286671131933546,
+      "gt_pixels": 2802,
+      "pred_pixels": 3170,
+      "false_positive": 397,
+      "false_negative": 29,
+      "fp_rate": 0.12523659305954185,
+      "fn_rate": 0.010349750178407032
+    },
+    "Kidneys": {
+      "dice": 0.22312740438962858,
+      "gt_pixels": 651,
+      "pred_pixels": 3768,
+      "false_positive": 3275,
+      "false_negative": 158,
+      "fp_rate": 0.8691613588087337,
+      "fn_rate": 0.2427035330223855
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11542",
+    "Liver": {
+      "dice": 0.9464149017594458,
+      "gt_pixels": 3849,
+      "pred_pixels": 3989,
+      "false_positive": 280,
+      "false_negative": 140,
+      "fp_rate": 0.07019303083461972,
+      "fn_rate": 0.036373083917806255
+    },
+    "Kidneys": {
+      "dice": 0.37138849929769596,
+      "gt_pixels": 680,
+      "pred_pixels": 2885,
+      "false_positive": 2223,
+      "false_negative": 18,
+      "fp_rate": 0.7705372616957694,
+      "fn_rate": 0.026470588234904845
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11724",
+    "Liver": {
+      "dice": 0.16455696201490144,
+      "gt_pixels": 145,
+      "pred_pixels": 13,
+      "false_positive": 0,
+      "false_negative": 132,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9103448275234245
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11845",
+    "Liver": {
+      "dice": 0.3472942920675551,
+      "gt_pixels": 4430,
+      "pred_pixels": 966,
+      "false_positive": 29,
+      "false_negative": 3493,
+      "fp_rate": 0.03002070393343664,
+      "fn_rate": 0.788487584648333
+    },
+    "Kidneys": {
+      "dice": 0.7584547520379906,
+      "gt_pixels": 5863,
+      "pred_pixels": 9099,
+      "false_positive": 3425,
+      "false_negative": 189,
+      "fp_rate": 0.3764149906579004,
+      "fn_rate": 0.03223605662624555
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11846",
+    "Liver": {
+      "dice": 0.28527741371715754,
+      "gt_pixels": 3893,
+      "pred_pixels": 685,
+      "false_positive": 32,
+      "false_negative": 3240,
+      "fp_rate": 0.046715328466471306,
+      "fn_rate": 0.8322630362167165
+    },
+    "Kidneys": {
+      "dice": 0.7521094943852553,
+      "gt_pixels": 5758,
+      "pred_pixels": 9293,
+      "false_positive": 3633,
+      "false_negative": 98,
+      "fp_rate": 0.3909394167648865,
+      "fn_rate": 0.017019798541130567
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11847",
+    "Liver": {
+      "dice": 0.49334105384965576,
+      "gt_pixels": 3893,
+      "pred_pixels": 1288,
+      "false_positive": 10,
+      "false_negative": 2615,
+      "fp_rate": 0.007763975155219225,
+      "fn_rate": 0.671718469045282
+    },
+    "Kidneys": {
+      "dice": 0.7991729841483121,
+      "gt_pixels": 5941,
+      "pred_pixels": 8569,
+      "false_positive": 2771,
+      "false_negative": 143,
+      "fp_rate": 0.32337495623722323,
+      "fn_rate": 0.02407002188179756
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11850",
+    "Liver": {
+      "dice": 0.02424242424235428,
+      "gt_pixels": 3423,
+      "pred_pixels": 42,
+      "false_positive": 0,
+      "false_negative": 3381,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9877300613468077
+    },
+    "Kidneys": {
+      "dice": 0.7531608636447168,
+      "gt_pixels": 5954,
+      "pred_pixels": 9469,
+      "false_positive": 3661,
+      "false_negative": 146,
+      "fp_rate": 0.3866300559717112,
+      "fn_rate": 0.024521330198144908
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11857",
+    "Liver": {
+      "dice": 0.15764958796073936,
+      "gt_pixels": 2571,
+      "pred_pixels": 220,
+      "false_positive": 0,
+      "false_negative": 2351,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9144301828046891
+    },
+    "Kidneys": {
+      "dice": 0.8073148344271642,
+      "gt_pixels": 5922,
+      "pred_pixels": 8241,
+      "false_positive": 2524,
+      "false_negative": 205,
+      "fp_rate": 0.3062735104959273,
+      "fn_rate": 0.03461668355279531
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11858",
+    "Liver": {
+      "dice": 0.015992892047907627,
+      "gt_pixels": 2233,
+      "pred_pixels": 18,
+      "false_positive": 0,
+      "false_negative": 2215,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9919390953829291
+    },
+    "Kidneys": {
+      "dice": 0.7964209019321428,
+      "gt_pixels": 5675,
+      "pred_pixels": 8295,
+      "false_positive": 2732,
+      "false_negative": 112,
+      "fp_rate": 0.3293550331521044,
+      "fn_rate": 0.019735682819348482
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11859",
+    "Liver": {
+      "dice": 0.08326180257474995,
+      "gt_pixels": 2233,
+      "pred_pixels": 97,
+      "false_positive": 0,
+      "false_negative": 2136,
+      "fp_rate": 0.0,
+      "fn_rate": 0.956560680694328
+    },
+    "Kidneys": {
+      "dice": 0.8164065335747249,
+      "gt_pixels": 5754,
+      "pred_pixels": 8021,
+      "false_positive": 2398,
+      "false_negative": 131,
+      "fp_rate": 0.2989652163068209,
+      "fn_rate": 0.022766770941913858
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11860",
+    "Liver": {
+      "dice": 0.2078651685384917,
+      "gt_pixels": 2233,
+      "pred_pixels": 259,
+      "false_positive": 0,
+      "false_negative": 1974,
+      "fp_rate": 0.0,
+      "fn_rate": 0.8840125391809942
+    },
+    "Kidneys": {
+      "dice": 0.8233145639926774,
+      "gt_pixels": 5509,
+      "pred_pixels": 7633,
+      "false_positive": 2223,
+      "false_negative": 99,
+      "fp_rate": 0.2912354251273533,
+      "fn_rate": 0.01797059357411877
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11861",
+    "Liver": {
+      "dice": 0.15097945532656007,
+      "gt_pixels": 1935,
+      "pred_pixels": 158,
+      "false_positive": 0,
+      "false_negative": 1777,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9183462532252282
+    },
+    "Kidneys": {
+      "dice": 0.8152451777823105,
+      "gt_pixels": 5358,
+      "pred_pixels": 7551,
+      "false_positive": 2289,
+      "false_negative": 96,
+      "fp_rate": 0.3031386571311043,
+      "fn_rate": 0.017917133258645173
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11862",
+    "Liver": {
+      "dice": 0.2108183079047119,
+      "gt_pixels": 1935,
+      "pred_pixels": 228,
+      "false_positive": 0,
+      "false_negative": 1707,
+      "fp_rate": 0.0,
+      "fn_rate": 0.8821705426311
+    },
+    "Kidneys": {
+      "dice": 0.8304722727625737,
+      "gt_pixels": 5353,
+      "pred_pixels": 7288,
+      "false_positive": 2039,
+      "false_negative": 104,
+      "fp_rate": 0.2797749725572451,
+      "fn_rate": 0.01942835793009634
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11863",
+    "Liver": {
+      "dice": 0.41717791410872324,
+      "gt_pixels": 1935,
+      "pred_pixels": 510,
+      "false_positive": 0,
+      "false_negative": 1425,
+      "fp_rate": 0.0,
+      "fn_rate": 0.7364341085233259
+    },
+    "Kidneys": {
+      "dice": 0.852478134110077,
+      "gt_pixels": 5231,
+      "pred_pixels": 6774,
+      "false_positive": 1657,
+      "false_negative": 114,
+      "fp_rate": 0.24461175081156686,
+      "fn_rate": 0.021793156184244326
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11864",
+    "Liver": {
+      "dice": 0.1511307225584604,
+      "gt_pixels": 1676,
+      "pred_pixels": 137,
+      "false_positive": 0,
+      "false_negative": 1539,
+      "fp_rate": 0.0,
+      "fn_rate": 0.918257756557767
+    },
+    "Kidneys": {
+      "dice": 0.8292843613597716,
+      "gt_pixels": 5204,
+      "pred_pixels": 6939,
+      "false_positive": 1904,
+      "false_negative": 169,
+      "fp_rate": 0.27439112263975446,
+      "fn_rate": 0.0324750192159253
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11865",
+    "Liver": {
+      "dice": 0.2757201646076352,
+      "gt_pixels": 1676,
+      "pred_pixels": 268,
+      "false_positive": 0,
+      "false_negative": 1408,
+      "fp_rate": 0.0,
+      "fn_rate": 0.8400954653887823
+    },
+    "Kidneys": {
+      "dice": 0.8474519068504492,
+      "gt_pixels": 5130,
+      "pred_pixels": 6722,
+      "false_positive": 1700,
+      "false_negative": 108,
+      "fp_rate": 0.2529009223441641,
+      "fn_rate": 0.02105263157890633
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11872",
+    "Liver": {
+      "dice": 0.006705783738418226,
+      "gt_pixels": 1189,
+      "pred_pixels": 4,
+      "false_positive": 0,
+      "false_negative": 1185,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9966358284188678
+    },
+    "Kidneys": {
+      "dice": 0.8648695351642778,
+      "gt_pixels": 5204,
+      "pred_pixels": 6370,
+      "false_positive": 1365,
+      "false_negative": 199,
+      "fp_rate": 0.2142857142853779,
+      "fn_rate": 0.03823981552644458
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11873",
+    "Liver": {
+      "dice": 0.00803212851397558,
+      "gt_pixels": 992,
+      "pred_pixels": 4,
+      "false_positive": 0,
+      "false_negative": 988,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9959677419254439
+    },
+    "Kidneys": {
+      "dice": 0.8665254237280485,
+      "gt_pixels": 5131,
+      "pred_pixels": 6197,
+      "false_positive": 1289,
+      "false_negative": 223,
+      "fp_rate": 0.20800387284136196,
+      "fn_rate": 0.043461313584011965
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11953",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 111,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 111,
+      "fp_rate": 0.0,
+      "fn_rate": 0.99999999990991
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_11976",
+    "Liver": {
+      "dice": 0.9785070487630121,
+      "gt_pixels": 8547,
+      "pred_pixels": 8761,
+      "false_positive": 293,
+      "false_negative": 79,
+      "fp_rate": 0.03344367081379586,
+      "fn_rate": 0.009243009242998429
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 286,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 286,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999965035
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12110",
+    "Liver": {
+      "dice": 0.9078237410065139,
+      "gt_pixels": 6226,
+      "pred_pixels": 7118,
+      "false_positive": 1061,
+      "false_negative": 169,
+      "fp_rate": 0.14905872436056608,
+      "fn_rate": 0.02714423385797118
+    },
+    "Kidneys": {
+      "dice": 0.3699530516397188,
+      "gt_pixels": 197,
+      "pred_pixels": 868,
+      "false_positive": 671,
+      "false_negative": 0,
+      "fp_rate": 0.7730414746454719,
+      "fn_rate": 0.0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12112",
+    "Liver": {
+      "dice": 0.7540211847776048,
+      "gt_pixels": 6226,
+      "pred_pixels": 3970,
+      "false_positive": 126,
+      "false_negative": 2382,
+      "fp_rate": 0.031738035264403684,
+      "fn_rate": 0.3825891423058423
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 197,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 197,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999492385
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12145",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 118,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 118,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999152543
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12146",
+    "Liver": {
+      "dice": 0.31023102309207157,
+      "gt_pixels": 256,
+      "pred_pixels": 47,
+      "false_positive": 0,
+      "false_negative": 209,
+      "fp_rate": 0.0,
+      "fn_rate": 0.8164062499681091
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12309",
+    "Liver": {
+      "dice": 0.2545180722872401,
+      "gt_pixels": 1046,
+      "pred_pixels": 282,
+      "false_positive": 113,
+      "false_negative": 877,
+      "fp_rate": 0.4007092198439465,
+      "fn_rate": 0.8384321223629214
+    },
+    "Kidneys": {
+      "dice": 0.9611035730427847,
+      "gt_pixels": 4330,
+      "pred_pixels": 4514,
+      "false_positive": 264,
+      "false_negative": 80,
+      "fp_rate": 0.058484714222289576,
+      "fn_rate": 0.018475750577324538
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12310",
+    "Liver": {
+      "dice": 0.16724738675812503,
+      "gt_pixels": 1046,
+      "pred_pixels": 102,
+      "false_positive": 6,
+      "false_negative": 950,
+      "fp_rate": 0.0588235294059977,
+      "fn_rate": 0.9082217973144531
+    },
+    "Kidneys": {
+      "dice": 0.9588092765651796,
+      "gt_pixels": 4234,
+      "pred_pixels": 4433,
+      "false_positive": 278,
+      "false_negative": 79,
+      "fp_rate": 0.06271148206617931,
+      "fn_rate": 0.01865847897964417
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12311",
+    "Liver": {
+      "dice": 0.35015772870386314,
+      "gt_pixels": 1046,
+      "pred_pixels": 222,
+      "false_positive": 0,
+      "false_negative": 824,
+      "fp_rate": 0.0,
+      "fn_rate": 0.7877629063022203
+    },
+    "Kidneys": {
+      "dice": 0.9548022598858817,
+      "gt_pixels": 4141,
+      "pred_pixels": 4355,
+      "false_positive": 299,
+      "false_negative": 85,
+      "fp_rate": 0.0686567164177528,
+      "fn_rate": 0.02052644288814169
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12312",
+    "Liver": {
+      "dice": 0.12278630460303676,
+      "gt_pixels": 794,
+      "pred_pixels": 53,
+      "false_positive": 1,
+      "false_negative": 742,
+      "fp_rate": 0.0188679245247419,
+      "fn_rate": 0.9345088161091372
+    },
+    "Kidneys": {
+      "dice": 0.9561011004946715,
+      "gt_pixels": 4047,
+      "pred_pixels": 4222,
+      "false_positive": 269,
+      "false_negative": 94,
+      "fp_rate": 0.06371387967772688,
+      "fn_rate": 0.023227081788922098
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12313",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 794,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 794,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999874055
+    },
+    "Kidneys": {
+      "dice": 0.9623871614832468,
+      "gt_pixels": 3917,
+      "pred_pixels": 4059,
+      "false_positive": 221,
+      "false_negative": 79,
+      "fp_rate": 0.054446908105310554,
+      "fn_rate": 0.0201684962981359
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12314",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 794,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 794,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999874055
+    },
+    "Kidneys": {
+      "dice": 0.9628560178488478,
+      "gt_pixels": 3739,
+      "pred_pixels": 3880,
+      "false_positive": 212,
+      "false_negative": 71,
+      "fp_rate": 0.05463917525759114,
+      "fn_rate": 0.018989034501152746
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12315",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 603,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 603,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999834163
+    },
+    "Kidneys": {
+      "dice": 0.9674418604637929,
+      "gt_pixels": 3598,
+      "pred_pixels": 3712,
+      "false_positive": 176,
+      "false_negative": 62,
+      "fp_rate": 0.04741379310332055,
+      "fn_rate": 0.017231795441864282
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12316",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 603,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 603,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999834163
+    },
+    "Kidneys": {
+      "dice": 0.9702432045765805,
+      "gt_pixels": 3445,
+      "pred_pixels": 3545,
+      "false_positive": 154,
+      "false_negative": 54,
+      "fp_rate": 0.04344146685460242,
+      "fn_rate": 0.01567489114654376
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12317",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 603,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 603,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999834163
+    },
+    "Kidneys": {
+      "dice": 0.969733293375832,
+      "gt_pixels": 3290,
+      "pred_pixels": 3384,
+      "false_positive": 148,
+      "false_negative": 54,
+      "fp_rate": 0.04373522458615917,
+      "fn_rate": 0.01641337386013248
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12318",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 350,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 350,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999714285
+    },
+    "Kidneys": {
+      "dice": 0.9622671549101063,
+      "gt_pixels": 3126,
+      "pred_pixels": 3155,
+      "false_positive": 133,
+      "false_negative": 104,
+      "fp_rate": 0.0421553090331469,
+      "fn_rate": 0.0332693538066754
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12319",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 350,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 350,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999714285
+    },
+    "Kidneys": {
+      "dice": 0.9638513513497232,
+      "gt_pixels": 2943,
+      "pred_pixels": 2977,
+      "false_positive": 124,
+      "false_negative": 90,
+      "fp_rate": 0.041652670473491256,
+      "fn_rate": 0.03058103975524777
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12320",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 350,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 350,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999714285
+    },
+    "Kidneys": {
+      "dice": 0.9676621311168623,
+      "gt_pixels": 2812,
+      "pred_pixels": 2847,
+      "false_positive": 109,
+      "false_negative": 74,
+      "fp_rate": 0.03828591499810929,
+      "fn_rate": 0.026315789473590628
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12536",
+    "Liver": {
+      "dice": 0.964093357266768,
+      "gt_pixels": 1125,
+      "pred_pixels": 1103,
+      "false_positive": 29,
+      "false_negative": 51,
+      "fp_rate": 0.026291931096769795,
+      "fn_rate": 0.045333333332930374
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 116,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 116,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999137932
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12544",
+    "Liver": {
+      "dice": 0.3956043955826591,
+      "gt_pixels": 142,
+      "pred_pixels": 40,
+      "false_positive": 4,
+      "false_negative": 106,
+      "fp_rate": 0.099999999975,
+      "fn_rate": 0.7464788731868677
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12570",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 137,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 137,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999270073
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12626",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 147,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 147,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999319727
+    },
+    "Kidneys": {
+      "dice": 0.9641711594888662,
+      "gt_pixels": 7337,
+      "pred_pixels": 7316,
+      "false_positive": 252,
+      "false_negative": 273,
+      "fp_rate": 0.03444505194090426,
+      "fn_rate": 0.037208668393025474
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12627",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 147,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 147,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999319727
+    },
+    "Kidneys": {
+      "dice": 0.9631989156211702,
+      "gt_pixels": 7337,
+      "pred_pixels": 7418,
+      "false_positive": 312,
+      "false_negative": 231,
+      "fp_rate": 0.04205985440813958,
+      "fn_rate": 0.031484257871021555
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12628",
+    "Liver": {
+      "dice": 0.08333333333017677,
+      "gt_pixels": 253,
+      "pred_pixels": 11,
+      "false_positive": 0,
+      "false_negative": 242,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9565217390926276
+    },
+    "Kidneys": {
+      "dice": 0.9617685305585424,
+      "gt_pixels": 7841,
+      "pred_pixels": 7539,
+      "false_positive": 143,
+      "false_negative": 445,
+      "fp_rate": 0.01896803289558434,
+      "fn_rate": 0.05675296518293999
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12781",
+    "Liver": {
+      "dice": 0.37478705280451813,
+      "gt_pixels": 110,
+      "pred_pixels": 477,
+      "false_positive": 367,
+      "false_negative": 0,
+      "fp_rate": 0.7693920335268472,
+      "fn_rate": 0.0
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12782",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 110,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 110,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999090909
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12783",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 110,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 110,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999090909
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12810",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 435,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 435,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999770115
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12811",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 435,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 435,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999770115
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12812",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 972,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 972,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999897119
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_12813",
+    "Liver": {
+      "dice": 0.33788395904148566,
+      "gt_pixels": 972,
+      "pred_pixels": 200,
+      "false_positive": 2,
+      "false_negative": 774,
+      "fp_rate": 0.009999999999499999,
+      "fn_rate": 0.7962962962881039
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13012",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.4738292010888752,
+      "gt_pixels": 277,
+      "pred_pixels": 86,
+      "false_positive": 0,
+      "false_negative": 191,
+      "fp_rate": 0.0,
+      "fn_rate": 0.6895306858956848
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13187",
+    "Liver": {
+      "dice": 0.8939511291325507,
+      "gt_pixels": 30022,
+      "pred_pixels": 35825,
+      "false_positive": 6393,
+      "false_negative": 590,
+      "fp_rate": 0.17845080251216233,
+      "fn_rate": 0.019652255012983927
+    },
+    "Kidneys": {
+      "dice": 0.04233483001897156,
+      "gt_pixels": 1510,
+      "pred_pixels": 49,
+      "false_positive": 16,
+      "false_negative": 1477,
+      "fp_rate": 0.32653061217825907,
+      "fn_rate": 0.9781456953577607
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13188",
+    "Liver": {
+      "dice": 0.8946349820741625,
+      "gt_pixels": 28387,
+      "pred_pixels": 34651,
+      "false_positive": 6453,
+      "false_negative": 189,
+      "fp_rate": 0.18622839167695415,
+      "fn_rate": 0.006657977243101893
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 983,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 983,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999989827
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13189",
+    "Liver": {
+      "dice": 0.8990631076540893,
+      "gt_pixels": 28387,
+      "pred_pixels": 33840,
+      "false_positive": 5867,
+      "false_negative": 414,
+      "fp_rate": 0.17337470449167455,
+      "fn_rate": 0.014584140627747003
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 983,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 983,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999989827
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13190",
+    "Liver": {
+      "dice": 0.9092872923654515,
+      "gt_pixels": 28387,
+      "pred_pixels": 32718,
+      "false_positive": 4937,
+      "false_negative": 606,
+      "fp_rate": 0.15089553151165996,
+      "fn_rate": 0.02134780004931083
+    },
+    "Kidneys": {
+      "dice": 0.07850467289646258,
+      "gt_pixels": 983,
+      "pred_pixels": 87,
+      "false_positive": 45,
+      "false_negative": 941,
+      "fp_rate": 0.5172413792508919,
+      "fn_rate": 0.9572736520757144
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13191",
+    "Liver": {
+      "dice": 0.9271846389510657,
+      "gt_pixels": 26441,
+      "pred_pixels": 29701,
+      "false_positive": 3674,
+      "false_negative": 414,
+      "fp_rate": 0.12369953873602785,
+      "fn_rate": 0.015657501607346296
+    },
+    "Kidneys": {
+      "dice": 0.27843803055554434,
+      "gt_pixels": 505,
+      "pred_pixels": 84,
+      "false_positive": 2,
+      "false_negative": 423,
+      "fp_rate": 0.023809523806689343,
+      "fn_rate": 0.837623762359651
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13192",
+    "Liver": {
+      "dice": 0.9151844356869893,
+      "gt_pixels": 26441,
+      "pred_pixels": 29893,
+      "false_positive": 4115,
+      "false_negative": 663,
+      "fp_rate": 0.1376576456026034,
+      "fn_rate": 0.02507469460306907
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 505,
+      "pred_pixels": 28,
+      "false_positive": 28,
+      "false_negative": 505,
+      "fp_rate": 0.9999999996428571,
+      "fn_rate": 0.999999999980198
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13257",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 126,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 126,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999206349
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13295",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 120,
+      "pred_pixels": 16,
+      "false_positive": 16,
+      "false_negative": 120,
+      "fp_rate": 0.999999999375,
+      "fn_rate": 0.9999999999166668
+    },
+    "Kidneys": {
+      "dice": 0.9562812276936506,
+      "gt_pixels": 5610,
+      "pred_pixels": 5598,
+      "false_positive": 239,
+      "false_negative": 251,
+      "fp_rate": 0.042693819221074146,
+      "fn_rate": 0.04474153297674734
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13296",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 120,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 120,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999166668
+    },
+    "Kidneys": {
+      "dice": 0.9697453642081716,
+      "gt_pixels": 5610,
+      "pred_pixels": 5661,
+      "false_positive": 196,
+      "false_negative": 145,
+      "fp_rate": 0.03462285815220876,
+      "fn_rate": 0.02584670231724448
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13297",
+    "Liver": {
+      "dice": 0.07999999999360001,
+      "gt_pixels": 120,
+      "pred_pixels": 5,
+      "false_positive": 0,
+      "false_negative": 115,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9583333332534723
+    },
+    "Kidneys": {
+      "dice": 0.9642042463581644,
+      "gt_pixels": 5610,
+      "pred_pixels": 5788,
+      "false_positive": 293,
+      "false_negative": 115,
+      "fp_rate": 0.05062197650302242,
+      "fn_rate": 0.020499108734366313
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13430",
+    "Liver": {
+      "dice": 0.9859881838963747,
+      "gt_pixels": 22275,
+      "pred_pixels": 21902,
+      "false_positive": 123,
+      "false_negative": 496,
+      "fp_rate": 0.005615925486254399,
+      "fn_rate": 0.022267115600438935
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 167,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 167,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999401197
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13476",
+    "Liver": {
+      "dice": 0.04670912951068558,
+      "gt_pixels": 460,
+      "pred_pixels": 11,
+      "false_positive": 0,
+      "false_negative": 449,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9760869565005198
+    },
+    "Kidneys": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13665",
+    "Liver": {
+      "dice": 0.9831779294432408,
+      "gt_pixels": 25942,
+      "pred_pixels": 26073,
+      "false_positive": 503,
+      "false_negative": 372,
+      "fp_rate": 0.019291987880175165,
+      "fn_rate": 0.014339680826453496
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 512,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 512,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999804687
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13793",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.0,
+      "gt_pixels": 403,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 403,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999751861
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13794",
+    "Liver": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "Kidneys": {
+      "dice": 0.07637231503397679,
+      "gt_pixels": 403,
+      "pred_pixels": 16,
+      "false_positive": 0,
+      "false_negative": 387,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9602977667255509
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13808",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 389,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 389,
+      "fp_rate": 0.0,
+      "fn_rate": 0.999999999974293
+    },
+    "Kidneys": {
+      "dice": 0.9559984956714705,
+      "gt_pixels": 1385,
+      "pred_pixels": 1274,
+      "false_positive": 3,
+      "false_negative": 114,
+      "fp_rate": 0.0023547880690553,
+      "fn_rate": 0.08231046931348512
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13809",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 357,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 357,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999719887
+    },
+    "Kidneys": {
+      "dice": 0.9713235294081937,
+      "gt_pixels": 1385,
+      "pred_pixels": 1335,
+      "false_positive": 14,
+      "false_negative": 64,
+      "fp_rate": 0.010486891385689237,
+      "fn_rate": 0.04620938628125481
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13810",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 473,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 473,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999788584
+    },
+    "Kidneys": {
+      "dice": 0.9694134580749572,
+      "gt_pixels": 1385,
+      "pred_pixels": 1394,
+      "false_positive": 47,
+      "false_negative": 38,
+      "fp_rate": 0.0337159253943062,
+      "fn_rate": 0.027436823104495044
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13811",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 1132,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 1132,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999911662
+    },
+    "Kidneys": {
+      "dice": 0.960320106699032,
+      "gt_pixels": 1553,
+      "pred_pixels": 1446,
+      "false_positive": 6,
+      "false_negative": 113,
+      "fp_rate": 0.004149377593332301,
+      "fn_rate": 0.07276239536334346
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13812",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 1149,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 1149,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999912969
+    },
+    "Kidneys": {
+      "dice": 0.9719504240020485,
+      "gt_pixels": 1553,
+      "pred_pixels": 1513,
+      "false_positive": 23,
+      "false_negative": 63,
+      "fp_rate": 0.015201586252378047,
+      "fn_rate": 0.04056664520257201
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13813",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 1149,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 1149,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999912969
+    },
+    "Kidneys": {
+      "dice": 0.9707112970680055,
+      "gt_pixels": 1553,
+      "pred_pixels": 1554,
+      "false_positive": 46,
+      "false_negative": 45,
+      "fp_rate": 0.02960102960083912,
+      "fn_rate": 0.028976175144694295
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13814",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 3258,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 3258,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999969307
+    },
+    "Kidneys": {
+      "dice": 0.9659367396564297,
+      "gt_pixels": 1691,
+      "pred_pixels": 1597,
+      "false_positive": 9,
+      "false_negative": 103,
+      "fp_rate": 0.005635566687503848,
+      "fn_rate": 0.06091070372524595
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13815",
+    "Liver": {
+      "dice": 0.0,
+      "gt_pixels": 3286,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 3286,
+      "fp_rate": 0.0,
+      "fn_rate": 0.9999999999969568
+    },
+    "Kidneys": {
+      "dice": 0.9702076436925363,
+      "gt_pixels": 1691,
+      "pred_pixels": 1632,
+      "false_positive": 20,
+      "false_negative": 79,
+      "fp_rate": 0.012254901960709223,
+      "fn_rate": 0.046717918391208056
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13816",
+    "Liver": {
+      "dice": 0.0017793594305997053,
+      "gt_pixels": 3286,
+      "pred_pixels": 86,
+      "false_positive": 83,
+      "false_negative": 3283,
+      "fp_rate": 0.9651162789575447,
+      "fn_rate": 0.9990870359068805
+    },
+    "Kidneys": {
+      "dice": 0.9704565801224397,
+      "gt_pixels": 1691,
+      "pred_pixels": 1660,
+      "false_positive": 34,
+      "false_negative": 65,
+      "fp_rate": 0.02048192771071999,
+      "fn_rate": 0.03843879361301929
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  {
+    "sample_id": "sample_13817",
+    "Liver": {
+      "dice": 0.26442043581713165,
+      "gt_pixels": 4739,
+      "pred_pixels": 722,
+      "false_positive": 0,
+      "false_negative": 4017,
+      "fp_rate": 0.0,
+      "fn_rate": 0.8476471829482009
+    },
+    "Kidneys": {
+      "dice": 0.9603903559099874,
+      "gt_pixels": 1795,
+      "pred_pixels": 1689,
+      "false_positive": 16,
+      "false_negative": 122,
+      "fp_rate": 0.00947306098277399,
+      "fn_rate": 0.06796657381577735
+    },
+    "Spleen": {
+      "dice": 1.0,
+      "gt_pixels": 0,
+      "pred_pixels": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  }
+]

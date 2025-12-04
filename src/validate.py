@@ -47,7 +47,7 @@ def validate_model(config_path, checkpoint_path):
     print("Loading validation dataset...")
     val_dataset = AbdomenCTDataset(
         data_dir=config['data_dir'],
-        split_file=config['val_split'],
+        split_file="data/splits/test_cases_full.json",
         transform=get_validation_augmentation(),
         cache_data=config.get('cache_data', True)
     )

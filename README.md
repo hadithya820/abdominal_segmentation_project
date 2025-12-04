@@ -111,21 +111,117 @@ python preprocess_test_cases.py \
     --splits_file ../../data/splits/test_cases.json
 ```
 
-### 3. Train Baseline U-Net
+### 3. Train 2D U-Net (Baseline)
 ```bash
 python src/train_unet.py --config config/unet_train_config.json
 ```
 
-### 4. Monitor Training
+### 4. Train 3D Models
+
+The project includes three optimized 3D architectures for volumetric segmentation:
+
 ```bash
-tensorboard --logdir results/unet_baseline/logs
+# Profile memory usage first (recommended)
+python src/profile_models.py --quick --output results
+
+# Train 3D U-Net
+python src/train_3d.py --config config/unet3d_config.json
+
+# Train V-Net
+python src/train_3d.py --config config/vnet_config.json
+
+# Train SegResNet
+python src/train_3d.py --config config/segresnet_config.json
+
+# Or train all 3D models sequentially (PowerShell)
+.\scripts\train_all_3d.ps1
+
+# Or train all 3D models sequentially (Bash)
+./scripts/train_all_3d.sh
 ```
+
+### 5. Monitor Training
+```bash
+tensorboard --logdir results/unet_baseline/logs      # 2D U-Net
+tensorboard --logdir results/unet3d_baseline/logs    # 3D U-Net
+tensorboard --logdir results/vnet_baseline/logs      # V-Net
+tensorboard --logdir results/segresnet_baseline/logs # SegResNet
+```
+
+## 3D Model Architectures
+
+### 3D U-Net (`src/models/unet_3d.py`)
+- **Type**: Encoder-decoder with skip connections
+- **Features**: 
+  - Gradient checkpointing for memory efficiency
+  - Instance normalization for small batch sizes
+  - LeakyReLU activations
+  - Optional deep supervision
+- **Parameters**: ~5M (base_filters=32)
+- **Memory**: ~8GB for batch_size=4, patch_size=(64,128,128)
+
+### V-Net (`src/models/vnet.py`)
+- **Type**: Fully convolutional with residual connections
+- **Features**:
+  - PReLU activations
+  - 5×5×5 convolutions in residual blocks
+  - Progressive channel expansion (16→32→64→128→256)
+  - Deep supervision support
+- **Parameters**: ~45M (base_filters=16)
+- **Memory**: ~12GB for batch_size=3, patch_size=(64,128,128)
+
+### SegResNet (`src/models/segresnet.py`)
+- **Type**: Encoder-decoder with GroupNorm
+- **Features**:
+  - Group normalization (stable for batch_size≥2)
+  - Configurable residual blocks per stage
+  - Optional VAE regularization branch
+  - Aggressive gradient checkpointing
+- **Parameters**: ~10M (init_filters=32)
+- **Memory**: ~9GB for batch_size=4, patch_size=(64,128,128)
+
+## 3D Data Pipeline
+
+The 3D dataset (`src/utils/dataset_3d.py`) includes:
+
+- **Patch Extraction**: Configurable patch size (default: 64×128×128)
+- **Smart Sampling**: 70% foreground-biased patch selection
+- **Memory-Efficient Loading**: LRU cache for volumes
+- **3D Augmentations**:
+  - Random flips (all axes)
+  - 3D rotations (±15°)
+  - Elastic deformations
+  - Intensity augmentations (brightness, contrast, gamma)
+  - Gaussian noise and blur
+
+## Hardware Requirements for 3D Models
+
+### Minimum (for batch_size=2)
+- GPU: 16GB VRAM (e.g., NVIDIA V100-16GB, RTX 4080)
+- RAM: 64GB
+- CPU: 8+ cores
+
+### Recommended (optimized configuration)
+- GPU: 32GB VRAM (e.g., NVIDIA L4, A100-40GB)
+- RAM: 256GB
+- CPU: 64 cores
+- Configuration used: g6.16xlarge [L4]
+
+### Memory Profiling
+Run the profiling script to find optimal batch sizes:
+```bash
+python src/profile_models.py --output results
+```
+
+This generates:
+- `results/profiling_report.json` - Detailed metrics
+- `results/PROFILING_REPORT.md` - Human-readable summary
 
 ## Evaluation Framework
 
 The project includes a comprehensive evaluation framework for comparing all models.
 
-### Running Evaluation
+### Running 2D Evaluation
 
 ```bash
 # Evaluate U-Net on test set
@@ -142,13 +238,25 @@ python src/run_evaluation.py \
     --checkpoint results/unet_baseline/checkpoints/best_checkpoint.pth \
     --split test \
     --no_hausdorff
-
-# Compare multiple models
-python src/run_evaluation.py \
-    --compare \
-    --models unet attention_unet \
-    --checkpoints path/to/unet.pth path/to/attention_unet.pth
 ```
+
+### Running 3D Evaluation
+
+```bash
+# Evaluate a single 3D model
+python src/evaluate_3d.py \
+    --checkpoint results/unet3d_baseline/checkpoints/best_checkpoint.pth \
+    --data_dir data/processed \
+    --test_split data/splits/test_cases.json \
+    --output_dir results/evaluation_3d
+
+# Compare all trained 3D models
+python src/evaluate_3d.py --compare \
+    --data_dir data/processed \
+    --test_split data/splits/test_cases.json \
+    --output_dir results/evaluation_3d
+```
+
 
 ### Metrics Computed
 - **Dice Score** - Per-organ overlap measure

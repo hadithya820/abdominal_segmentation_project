@@ -151,7 +151,7 @@ class ComprehensiveEvaluationRunner:
         split_files = {
             'train': 'data/splits/train_cases.json',
             'val': 'data/splits/val_cases.json',
-            'test': 'data/splits/test_cases.json'
+            'test': 'data/splits/test_cases_full.json'
         }
         
         split_file = split_files.get(split)

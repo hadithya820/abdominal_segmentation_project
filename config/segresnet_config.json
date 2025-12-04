@@ -1,0 +1,41 @@
+{
+  "model_name": "SegResNet",
+  "description": "SegResNet with memory-efficient residual blocks",
+  
+  "data_dir": "data/processed",
+  "train_split": "data/splits/train_cases.json",
+  "val_split": "data/splits/val_cases.json",
+  "output_dir": "results/segresnet_baseline",
+  
+  "n_channels": 1,
+  "n_classes": 4,
+  "base_filters": 32,
+  "trilinear": true,
+  "use_checkpoint": true,
+  "use_vae": false,
+  "deep_supervision": true,
+  
+  "patch_size": [64, 128, 128],
+  "batch_size": 6,
+  "accumulation_steps": 2,
+  "num_workers": 16,
+  "cache_size": 15,
+  "samples_per_volume": 8,
+  "use_augmentation": true,
+  
+  "epochs": 100,
+  "learning_rate": 0.0002,
+  "min_lr": 1e-7,
+  "warmup_epochs": 5,
+  "weight_decay": 1e-4,
+  "use_amp": true,
+  
+  "dice_weight": 0.5,
+  "ce_weight": 0.5,
+  "include_background": false,
+  
+  "early_stopping_patience": 5,
+  "save_every": 10,
+  
+  "notes": "SegResNet uses GroupNorm for stable training. Highest memory usage of the three. Memory: ~13GB at batch=6. Effective batch size = 12. Throughput: ~2.9 samples/s"
+}
