@@ -26,12 +26,19 @@ abdominal_segmentation_project/
 │   │   └── preprocess_test_cases.py  # Preprocess specific test cases
 │   ├── models/          
 │   │   ├── unet_2d.py            # U-Net architecture
+│   │   ├── attention_unet_2d.py  # Attention U-Net architecture
+│   │   ├── unet_3d.py            # 3D U-Net architecture
+│   │   ├── vnet.py               # V-Net architecture
+│   │   ├── segresnet.py          # SegResNet architecture
 │   │   └── losses.py             # Dice + CE loss
 │   ├── utils/           
-│   │   └── dataset.py            # PyTorch dataset with augmentation
+│   │   ├── dataset.py            # PyTorch dataset with augmentation
+│   │   └── dataset_3d.py         # 3D Dataset loader
 │   ├── visualization/
 │   │   └── visualization_suite.py # Enhanced visualizations and comparisons
-│   ├── train_unet.py             # Training script
+│   ├── train_unet.py             # Training script (2D U-Net)
+│   ├── train_attention_unet.py   # Training script (Attention U-Net)
+│   ├── train_3d.py               # Training script (3D Models)
 │   ├── validate.py               # Validation script
 │   ├── metrics.py                # Comprehensive metrics (Dice, IoU, Hausdorff)
 │   ├── error_analysis.py         # Failure case analysis
@@ -39,6 +46,10 @@ abdominal_segmentation_project/
 │   └── run_evaluation.py         # Main evaluation runner
 ├── config/
 │   ├── unet_train_config.json    # Training configuration
+│   ├── attention_unet_train_config.json
+│   ├── unet3d_config.json
+│   ├── vnet_config.json
+│   ├── segresnet_config.json
 │   └── test_eval_config.json     # Evaluation configuration
 ├── results/             # Checkpoints, logs, visualizations
 ├── notebooks/           
@@ -46,7 +57,9 @@ abdominal_segmentation_project/
 ├── docs/                
 │   └── DATA_PREPROCESSING.md     # Preprocessing documentation
 ├── scripts/
-│   └── train_baseline.sh         # Training convenience script
+│   ├── train_baseline.sh         # Training convenience script
+│   └── train_all_3d.sh           # Train all 3D models script
+├── comparison.py        # Script to compare model results
 ├── requirements.txt     # Python dependencies
 └── README.md           # This file
 ```
@@ -103,17 +116,14 @@ python process_dataset.py \
     --output_dir ../../data/processed
 ```
 
-To preprocess only test cases:
-```bash
-python preprocess_test_cases.py \
-    --input_dir /path/to/Subtask1 \
-    --output_dir ../../data/processed \
-    --splits_file ../../data/splits/test_cases.json
-```
-
 ### 3. Train 2D U-Net (Baseline)
 ```bash
 python src/train_unet.py --config config/unet_train_config.json
+```
+
+### 3b. Train Attention U-Net
+```bash
+python src/train_attention_unet.py --config config/attention_unet_train_config.json
 ```
 
 ### 4. Train 3D Models
@@ -140,13 +150,90 @@ python src/train_3d.py --config config/segresnet_config.json
 ./scripts/train_all_3d.sh
 ```
 
-### 5. Monitor Training
+## Evaluation Framework
+
+The project includes a comprehensive evaluation framework for comparing all models.
+
+### Running 2D Evaluation
+
 ```bash
-tensorboard --logdir results/unet_baseline/logs      # 2D U-Net
-tensorboard --logdir results/unet3d_baseline/logs    # 3D U-Net
-tensorboard --logdir results/vnet_baseline/logs      # V-Net
-tensorboard --logdir results/segresnet_baseline/logs # SegResNet
+# Evaluate U-Net on test set
+python src/run_evaluation.py \
+    --model unet \
+    --config config/unet_train_config.json \
+    --checkpoint results/unet_baseline/checkpoints/best_checkpoint.pth \
+    --split test \
+    --output_dir results/evaluation_test
+
+# Skip Hausdorff distance for faster evaluation
+python src/run_evaluation.py \
+    --model unet \
+    --checkpoint results/unet_baseline/checkpoints/best_checkpoint.pth \
+    --split test \
+    --no_hausdorff
 ```
+
+### Running 3D Evaluation
+
+```bash
+# Evaluate a single 3D model
+python src/evaluate_3d.py \
+    --checkpoint results/unet3d_baseline/checkpoints/best_checkpoint.pth \
+    --data_dir data/processed \
+    --test_split data/splits/test_cases.json \
+    --output_dir results/evaluation_3d
+
+# Compare all trained 3D models
+python src/evaluate_3d.py --compare \
+    --data_dir data/processed \
+    --test_split data/splits/test_cases.json \
+    --output_dir results/evaluation_3d
+```
+
+
+### Metrics Computed
+- **Dice Score** - Per-organ overlap measure
+- **IoU (Jaccard Index)** - Intersection over union
+- **Hausdorff Distance (95th percentile)** - Boundary accuracy
+
+### Evaluation Outputs
+```
+results/evaluation_test/
+├── evaluation_summary.json    # All metrics
+├── error_analysis/
+│   ├── error_analysis_report.txt
+│   └── confusion_matrix.npy
+└── visualizations/
+    ├── prediction_grid.png
+    └── error_maps/
+```
+
+## Preprocessing Pipeline
+
+1. **HU Windowing**: Level=40, Width=400 (abdominal soft tissue)
+2. **Normalization**: Intensities to [0, 1]
+3. **Resampling**: Isotropic 1x1x1 mm³ spacing
+4. **Organ Labels**: 
+   - 0: Background
+   - 1: Liver
+   - 2: Kidneys (merged left+right)
+   - 3: Spleen
+
+## 2D Model Architecture
+
+### U-Net (2D) - Baseline
+- **Encoder**: 5 levels (64→128→256→512→1024 channels)
+- **Decoder**: 4 upsampling blocks with skip connections
+- **Output**: 4 classes (background + 3 organs)
+- **Parameters**: ~31M
+
+### Attention U-Net (2D)
+- **Type**: Encoder-decoder with Attention Gates
+- **Features**:
+  - Attention Gates to focus on target structures
+  - Suppresses irrelevant regions in skip connections
+  - Same backbone as U-Net
+- **Parameters**: Slightly more than U-Net due to gating modules
 
 ## 3D Model Architectures
 
@@ -200,130 +287,3 @@ The 3D dataset (`src/utils/dataset_3d.py`) includes:
 - GPU: 16GB VRAM (e.g., NVIDIA V100-16GB, RTX 4080)
 - RAM: 64GB
 - CPU: 8+ cores
-
-### Recommended (optimized configuration)
-- GPU: 32GB VRAM (e.g., NVIDIA L4, A100-40GB)
-- RAM: 256GB
-- CPU: 64 cores
-- Configuration used: g6.16xlarge [L4]
-
-### Memory Profiling
-Run the profiling script to find optimal batch sizes:
-```bash
-python src/profile_models.py --output results
-```
-
-This generates:
-- `results/profiling_report.json` - Detailed metrics
-- `results/PROFILING_REPORT.md` - Human-readable summary
-
-## Evaluation Framework
-
-The project includes a comprehensive evaluation framework for comparing all models.
-
-### Running 2D Evaluation
-
-```bash
-# Evaluate U-Net on test set
-python src/run_evaluation.py \
-    --model unet \
-    --config config/unet_train_config.json \
-    --checkpoint results/unet_baseline/checkpoints/best_checkpoint.pth \
-    --split test \
-    --output_dir results/evaluation_test
-
-# Skip Hausdorff distance for faster evaluation
-python src/run_evaluation.py \
-    --model unet \
-    --checkpoint results/unet_baseline/checkpoints/best_checkpoint.pth \
-    --split test \
-    --no_hausdorff
-```
-
-### Running 3D Evaluation
-
-```bash
-# Evaluate a single 3D model
-python src/evaluate_3d.py \
-    --checkpoint results/unet3d_baseline/checkpoints/best_checkpoint.pth \
-    --data_dir data/processed \
-    --test_split data/splits/test_cases.json \
-    --output_dir results/evaluation_3d
-
-# Compare all trained 3D models
-python src/evaluate_3d.py --compare \
-    --data_dir data/processed \
-    --test_split data/splits/test_cases.json \
-    --output_dir results/evaluation_3d
-```
-
-
-### Metrics Computed
-- **Dice Score** - Per-organ overlap measure
-- **IoU (Jaccard Index)** - Intersection over union
-- **Pixel Accuracy** - Overall and per-class accuracy
-- **Hausdorff Distance (95th percentile)** - Boundary accuracy
-- **Statistical Tests** - Paired t-tests, Wilcoxon signed-rank
-
-### Evaluation Outputs
-```
-results/evaluation_test/
-├── evaluation_summary.json    # All metrics
-├── error_analysis/
-│   ├── error_analysis_report.txt
-│   └── confusion_matrix.npy
-└── visualizations/
-    ├── prediction_grid.png
-    └── error_maps/
-```
-
-## Preprocessing Pipeline
-
-1. **HU Windowing**: Level=40, Width=400 (abdominal soft tissue)
-2. **Normalization**: Intensities to [0, 1]
-3. **Resampling**: Isotropic 1x1x1 mm³ spacing
-4. **Organ Labels**: 
-   - 0: Background
-   - 1: Liver
-   - 2: Kidneys (merged left+right)
-   - 3: Spleen
-
-## Model Architecture
-
-### U-Net (2D) - Baseline
-- **Encoder**: 5 levels (64→128→256→512→1024 channels)
-- **Decoder**: 4 upsampling blocks with skip connections
-- **Output**: 4 classes (background + 3 organs)
-- **Parameters**: ~31M
-
-## Training Configuration
-
-```json
-{
-  "batch_size": 16,
-  "epochs": 100,
-  "learning_rate": 0.0001,
-  "loss": "Dice (50%) + Cross Entropy (50%)",
-  "optimizer": "Adam with weight decay (1e-5)",
-  "scheduler": "ReduceLROnPlateau (patience=5)",
-  "early_stopping": "15 epochs patience"
-}
-```
-
-## Results
-
-### U-Net 2D Baseline (Validation Set)
-| Organ | Dice Score |
-|-------|------------|
-| Overall | 96.35% |
-| Liver | 94.73% |
-| Kidneys | 94.33% |
-| Spleen | 100.00% |
-
-## References
-
-1. Ronneberger et al., "U-Net: Convolutional networks for biomedical image segmentation," MICCAI 2015
-2. Oktay et al., "Attention U-Net: Learning where to look for the pancreas," Medical Image Analysis 2018
-3. Çiçek et al., "3D U-Net: Learning dense volumetric segmentation," MICCAI 2016
-4. Milletari et al., "V-Net: Fully convolutional neural networks," 3DV 2016
-5. Myronenko, "3D MRI brain tumor segmentation using autoencoder regularization," BrainLes 2018
