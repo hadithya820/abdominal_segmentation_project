@@ -10,9 +10,9 @@ Kidneys:
   Min Dice: 0.0000
   Max Dice: 1.0000
 Spleen:
-  Mean Dice: 1.0000 ± 0.0000
-  Min Dice: 1.0000
+  Mean Dice: 0.9633 ± 0.0655
+  Min Dice: 0.7723
   Max Dice: 1.0000
 
-Overall Mean Dice: 0.9635
+Overall Mean Dice: 0.9513
 ==================================================
